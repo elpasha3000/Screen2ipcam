@@ -2,6 +2,12 @@
 
 **Turn any Windows PC screen into an ONVIF / RTSP IP camera — add it to any NVR, no capture card.**
 
+<p align="center">
+  <img src="images/hero.png" alt="A Windows PC screen shown live as a camera inside an NVR/VMS grid, alongside real CCTV cameras" width="100%">
+</p>
+
+<p align="center"><i>A Windows PC screen — live in your NVR, right next to your real cameras.</i></p>
+
 Screen2ipcam runs on a Windows PC and publishes its screen as a standard **ONVIF Profile S** camera with an **H.264 RTSP** stream (main + sub). Your NVR or VMS discovers it like any other IP camera and records it — no HDMI encoder, no capture hardware.
 
 It's not POS-only: anywhere you'd like a screen visible inside your existing NVR/VMS works — POS terminals, dashboards, a control-room display, digital signage, or keeping an eye on a remote PC.
