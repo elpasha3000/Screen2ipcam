@@ -23,6 +23,18 @@ It's not POS-only: anywhere you'd like a screen visible inside your existing NVR
 
 ---
 
+## 🖥️ Web control panel
+
+A clean browser-based panel (there's also a native GUI and a plain config file):
+
+**Video — main + sub streams (H.264)**
+![Video settings](images/Screenshot%202026-06-07%20170602.jpg)
+
+**Network — ports & optional stream authentication**
+![Network settings](images/Screenshot%202026-06-07%20170322.jpg)
+
+---
+
 ## 🔌 How it works
 
 ```
@@ -52,7 +64,7 @@ A one-page **Quick-Start (PDF)** is attached to the release (supported NVRs, por
 
 ---
 
-## 🖥️ Screenshots
+## 🪪 Status screens (shown on the stream)
 
 | Trial overlay | Stream paused | License screen |
 |---|---|---|
