@@ -8,6 +8,16 @@ It's not POS-only: anywhere you'd like a screen visible inside your existing NVR
 
 ---
 
+## ⬇️ Download (Beta 1.1)
+
+- **64-bit** (modern PCs) — [Screen2ipcam_Setup_1.1.0_beta_x64.exe](https://github.com/elpasha3000/Screen2ipcam/releases/download/v1.1-beta/Screen2ipcam_Setup_1.1.0_beta_x64.exe)
+- **32-bit** (older / embedded / POS) — [Screen2ipcam_Setup_1.1.0_beta_x86.exe](https://github.com/elpasha3000/Screen2ipcam/releases/download/v1.1-beta/Screen2ipcam_Setup_1.1.0_beta_x86.exe)
+- **Quick-Start (PDF)** — [Screen2ipcam_QuickStart.pdf](https://github.com/elpasha3000/Screen2ipcam/releases/download/v1.1-beta/Screen2ipcam_QuickStart.pdf)
+
+→ All releases: **https://github.com/elpasha3000/Screen2ipcam/releases**
+
+---
+
 ## ✨ Features
 
 - **ONVIF (Profile S)** — auto-discovered by NVRs (WS-Discovery), or add by IP
