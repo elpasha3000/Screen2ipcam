@@ -39,6 +39,21 @@ It's not POS-only: anywhere you'd like a screen visible inside your existing NVR
 
 ---
 
+## 🎯 Use cases
+
+Anywhere you already run an NVR or VMS and want a **screen** in it — recorded and reviewable like any other camera, with no extra hardware:
+
+- **POS & retail** — keep the cashier/till screen on the same NVR as your store cameras, so a transaction can be reviewed next to the matching video.
+- **Dashboards & wallboards** — record live KPI / monitoring dashboards for later review.
+- **Control rooms & operations** — capture operator consoles / HMIs alongside the room cameras.
+- **Digital signage & kiosks** — confirm what was actually shown on a public screen at any moment.
+- **Education & training** — supervise lab / exam / lecture PCs, or record a training screen for playback.
+- **Audit & incident review** — on-screen activity is recorded with timestamps, searchable and replayable with the rest of your footage.
+
+Software-only and standard **ONVIF / RTSP** — it drops into your existing NVR/VMS like any IP camera. No HDMI encoder, no capture card.
+
+---
+
 ## 🖥️ Web control panel
 
 A clean browser-based panel (there's also a native GUI and a plain config file):
