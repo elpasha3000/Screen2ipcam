@@ -41,16 +41,19 @@ It's not POS-only: anywhere you'd like a screen visible inside your existing NVR
 
 ## 🎯 Use cases
 
-Anywhere you already run an NVR or VMS and want a **screen** in it — recorded and reviewable like any other camera, with no extra hardware:
+Anywhere there's an important screen you'd like to turn into an IP camera inside your existing surveillance system:
 
-- **POS & retail** — keep the cashier/till screen on the same NVR as your store cameras, so a transaction can be reviewed next to the matching video.
-- **Dashboards & wallboards** — record live KPI / monitoring dashboards for later review.
-- **Control rooms & operations** — capture operator consoles / HMIs alongside the room cameras.
-- **Digital signage & kiosks** — confirm what was actually shown on a public screen at any moment.
-- **Education & training** — supervise lab / exam / lecture PCs, or record a training screen for playback.
-- **Audit & incident review** — on-screen activity is recorded with timestamps, searchable and replayable with the rest of your footage.
+- 🧾 **POS & cashier systems** — review a transaction next to the matching camera video.
+- 🏫 **Schools & training centers** — supervise or record lab / lecture / training screens.
+- 🏭 **Factories & production lines** — keep SCADA / HMI / line screens on the same recorder.
+- 🚚 **Warehouses & logistics** — capture WMS / dispatch screens alongside site cameras.
+- 🏥 **Healthcare facilities & labs** — record approved equipment / monitoring screens.
+- 🎓 **Examination & accreditation centers** — supervise exam workstations.
+- 🏢 **Remote branches & sites** — keep an eye on a screen through the system you already use for cameras.
 
 Software-only and standard **ONVIF / RTSP** — it drops into your existing NVR/VMS like any IP camera. No HDMI encoder, no capture card.
+
+> Used responsibly and lawfully — see the License Agreement. The operator is solely responsible for obtaining any required consents.
 
 ---
 
