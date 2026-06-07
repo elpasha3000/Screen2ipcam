@@ -3,6 +3,11 @@
 **Turn any Windows PC screen into an ONVIF / RTSP IP camera — add it to any NVR, no capture card.**
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Windows-7%20SP1%20%E2%86%92%2011-0078D6?logo=windows" alt="Windows 7 SP1 to 11">
+  <img src="https://img.shields.io/badge/ONVIF%20%2F%20RTSP-H.264-16a34a" alt="ONVIF / RTSP">
+</p>
+
+<p align="center">
   <img src="images/hero.png" alt="A Windows PC screen shown live as a camera inside an NVR/VMS grid, alongside real CCTV cameras" width="100%">
 </p>
 
