@@ -64,6 +64,14 @@ A one-page **Quick-Start (PDF)** is attached to the release (supported NVRs, por
 
 ---
 
+## 🗑️ Uninstall
+
+Uninstall from **Settings → Apps**, or the **Uninstall Screen2ipcam** shortcut. It asks for the **program password** (default `admin` / `admin`, or whatever you set) — so a casual user can't remove it from a deployed PC.
+
+Forgot the password? On the web-panel login click **Forgot password?**, then email the Device ID it shows to **ipmagic@aol.com** for a reset code (resets the login to `admin` / `admin`), and uninstall.
+
+---
+
 ## 🪪 Status screens (shown on the stream)
 
 | Trial overlay | Stream paused | License screen |
