@@ -130,6 +130,8 @@ This is a **free public beta** (3-day trial). Feedback is very welcome — espec
 
 Targeted / tested with **Dahua**, **Hikvision**, and **Blue Iris**; standard ONVIF/RTSP so enterprise VMS platforms should ingest it fine.
 
+💬 **Comments & questions** — share feedback in the **[Discussions](https://github.com/elpasha3000/Screen2ipcam/discussions)** tab, or open an **[Issue](https://github.com/elpasha3000/Screen2ipcam/issues)**.
+
 ---
 
 ## 📬 Contact
