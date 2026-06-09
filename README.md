@@ -64,13 +64,25 @@ Software-only and standard **ONVIF / RTSP** — it drops into your existing NVR/
 
 ## 🖥️ Web control panel
 
-A clean browser-based panel (there's also a native GUI and a plain config file):
+Browser-based panel at `http://[device-ip]:8080`:
 
-**Video — main + sub streams (H.264)**
-![Video settings](images/Screenshot%202026-06-07%20170602.jpg)
+**System / License** — device ID, license status, and activation QR
+![System / License](images/panel-system.png)
 
-**Network — ports & optional stream authentication**
-![Network settings](images/Screenshot%202026-06-07%20170322.jpg)
+**Network** — ports & optional stream authentication
+![Network](images/Screenshot%202026-06-07%20170322.jpg)
+
+---
+
+## 🪟 Windows control panel
+
+A native desktop app (runs in the system tray) — plus an installer that can set it up as an always-on Windows service:
+
+**Desktop control panel** — stream settings, tray icon, and service status
+![Windows control panel](images/win-panel.png)
+
+**Installer** — desktop shortcut, run at startup, and install as a Windows service
+![Installer tasks](images/win-installer.png)
 
 ---
 
