@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="images/hero.png" alt="A Windows PC screen shown live as a camera inside an NVR/VMS grid, alongside real CCTV cameras" width="100%">
+  <img src="images/screen2ipcam.png" alt="Screen2ipcam — turn any Windows PC screen into an ONVIF / RTSP IP camera, recorded in an NVR right next to real CCTV cameras" width="100%">
 </p>
 
 <p align="center"><i>A Windows PC screen — live in your NVR, right next to your real cameras.</i></p>
@@ -150,7 +150,7 @@ Forgot the password? On the web-panel login click **Forgot password?**, then ema
 ## 🖼️ See it in action
 
 <p align="center">
-  <img src="images/screen2ipcam.png" alt="Screen2ipcam — turn any PC screen into an ONVIF / RTSP IP camera, recorded in an NVR right next to real cameras" width="100%">
+  <img src="images/hero.png" alt="A Windows PC screen shown live in an NVR / VMS grid, next to real CCTV cameras" width="100%">
 </p>
 
 <p align="center">
