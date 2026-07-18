@@ -15,7 +15,8 @@ record it in any **NVR or VMS**, with **no capture card** and **no hardware enco
 <img src="https://img.shields.io/badge/ONVIF-Profile%20S-16a34a?style=for-the-badge" alt="ONVIF Profile S">&nbsp;
 <img src="https://img.shields.io/badge/RTSP-H.264%20Main%20%2B%20Sub-1b4fd6?style=for-the-badge" alt="RTSP H.264 main and sub streams">
 
-<img src="https://img.shields.io/badge/Microsoft%20Store-Signed%20%C2%B7%20zero%20warnings-0078D6?logo=microsoftstore&logoColor=white" alt="Signed on the Microsoft Store">&nbsp;
+<a href="https://apps.microsoft.com/detail/9pjdgr30l9l1"><img src="https://img.shields.io/badge/Microsoft%20Store-Signed%20%C2%B7%20zero%20warnings-0078D6?logo=microsoftstore&logoColor=white" alt="Get it on the Microsoft Store"></a>&nbsp;
+<a href="https://sourceforge.net/projects/screen2ipcam/files/latest/download"><img src="https://img.shields.io/sourceforge/dt/screen2ipcam?logo=sourceforge&logoColor=white&label=SourceForge&color=FF6600" alt="Download on SourceForge"></a>&nbsp;
 <img src="https://img.shields.io/badge/Free%20trial-14%20days%20%C2%B7%20full%20features-16a34a" alt="Free 14-day trial">&nbsp;
 <a href="https://www.softpedia.com/get/Internet/Streaming/Screen2ipcam.shtml"><img src="https://img.shields.io/badge/Softpedia-★%205.0%2F5%20%C2%B7%20100%25%20CLEAN-f59e0b" alt="Softpedia 5.0/5, Certified 100% Clean"></a>
 
