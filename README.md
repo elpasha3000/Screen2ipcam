@@ -93,10 +93,10 @@ Anywhere you'd like a screen visible inside your existing surveillance system:
 | | Download | Notes |
 |---|---|---|
 | 🌐 | **[magicweb.win](https://magicweb.win/#download)** | Official site — all download options |
-| 💾 | [Screen2ipcam_Setup_1.1.0_**x64**.exe](https://sourceforge.net/projects/screen2ipcam/files/windows-v1.1.0/Screen2ipcam_Setup_1.1.0_x64.exe/download) | 64-bit — modern PCs |
-| 🖥️ | [Screen2ipcam_Setup_1.1.0_**x86**.exe](https://sourceforge.net/projects/screen2ipcam/files/windows-v1.1.0/Screen2ipcam_Setup_1.1.0_x86.exe/download) | 32-bit — older / embedded / POS |
-| 📘 | [User guide — English (PDF)](https://sourceforge.net/projects/screen2ipcam/files/windows-v1.1.0/Screen2ipcam_Guide_EN.pdf/download) | Ports, NVR setup, Dahua & Hikvision |
-| 📗 | [دليل الاستخدام — عربي (PDF)](https://sourceforge.net/projects/screen2ipcam/files/windows-v1.1.0/Screen2ipcam_Guide_AR.pdf/download) | الدليل الكامل بالعربية |
+| 💾 | [Screen2ipcam_Setup_1.1.4_**x64**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.4_x64.exe) | 64-bit — modern PCs |
+| 🖥️ | [Screen2ipcam_Setup_1.1.4_**x86**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.4_x86.exe) | 32-bit — older / embedded / POS |
+| 📘 | [User guide — English (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_EN.pdf) | Ports, NVR setup, Dahua & Hikvision |
+| 📗 | [دليل الاستخدام — عربي (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_AR.pdf) | الدليل الكامل بالعربية |
 
 The trial is **14 days, fully functional**. A one-time license unlocks the full version — **no watermark, no time limit**.
 
