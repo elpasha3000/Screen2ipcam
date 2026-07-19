@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Screen2ipcam — Turn Any Windows PC Screen into an ONVIF / RTSP IP Camera</title>
+<meta name="description" content="Screen2ipcam is a native Windows app (C++, no .NET) that turns any PC screen into a standard ONVIF Profile S / RTSP H.264 IP camera your NVR or VMS auto-discovers and records. Windows 7–11, 32 & 64-bit. Free Microsoft Store edition + one-time ~$20 license.">
+<meta name="keywords" content="ONVIF, RTSP, IP camera, screen capture, NVR, VMS, Hikvision, Dahua, Blue Iris, Windows, H.264, Profile S, WS-Discovery">
+<link rel="canonical" href="https://elpasha3000.github.io/Screen2ipcam/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Screen2ipcam — Turn a Windows Screen into an ONVIF / RTSP IP Camera">
+<meta property="og:description" content="Native Windows app that makes any PC screen appear as a standard ONVIF Profile S / RTSP H.264 IP camera on your network. Auto-discovered and recorded by any NVR or VMS.">
+<meta property="og:url" content="https://elpasha3000.github.io/Screen2ipcam/">
+<meta property="og:image" content="https://store-images.s-microsoft.com/image/apps.55286.14218223384796662.e5077264-3d8d-453c-8fe7-adf4ef331041.6a34ed7a-6460-48c2-be0c-b51259adb5e4">
+<meta name="twitter:card" content="summary_large_image">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Screen2ipcam",
+  "applicationCategory": "MultimediaApplication",
+  "applicationSubCategory": "IP Camera / Video Surveillance",
+  "operatingSystem": "Windows 7 SP1, 8, 8.1, 10, 11 (32-bit and 64-bit)",
+  "description": "Native Windows application (C++, no .NET or extra dependencies) that turns any PC screen into a standard ONVIF Profile S / RTSP H.264 IP camera that NVR and VMS software auto-discover and record. Supports main and sub streams, ONVIF port 8000, RTSP 554, WS-Discovery 3702 and a web admin panel on 8080.",
+  "url": "https://elpasha3000.github.io/Screen2ipcam/",
+  "downloadUrl": "https://magicweb.win",
+  "softwareVersion": "1.0",
+  "featureList": [
+    "ONVIF Profile S device emulation",
+    "RTSP H.264 main and sub streams",
+    "WS-Discovery auto-discovery on the LAN",
+    "Web admin panel",
+    "Native C++, no .NET or runtime dependencies",
+    "Windows 7 SP1 through 11, 32 & 64-bit"
+  ],
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Microsoft Store edition (free)",
+      "price": "0",
+      "priceCurrency": "USD",
+      "url": "https://apps.microsoft.com/detail/9pjdgr30l9l1",
+      "description": "Free edition: 14 days clean, then a small watermark. Never expires."
+    },
+    {
+      "@type": "Offer",
+      "name": "Full license (one-time)",
+      "price": "20",
+      "priceCurrency": "USD",
+      "url": "https://magicweb.win",
+      "description": "One-time purchase, watermark-free full version."
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "MagicWeb",
+    "url": "https://magicweb.win"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Can a PC Be an ONVIF Camera? How to Turn a Windows Screen into an RTSP IP Camera",
+  "description": "A practical guide to exposing any Windows PC screen as a standard ONVIF Profile S / RTSP H.264 IP camera that your NVR or VMS can auto-discover and record, using Screen2ipcam.",
+  "image": "https://store-images.s-microsoft.com/image/apps.2627.14218223384796662.3176134c-4b17-4078-b87b-507e77a48300.aad65ba4-c716-4e01-95b6-891dcd497774",
+  "author": {
+    "@type": "Organization",
+    "name": "MagicWeb",
+    "url": "https://magicweb.win"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MagicWeb",
+    "url": "https://magicweb.win"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://elpasha3000.github.io/Screen2ipcam/"
+  },
+  "datePublished": "2026-07-19",
+  "dateModified": "2026-07-19"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can a Windows PC really act as an ONVIF IP camera?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Screen2ipcam exposes your Windows screen as a standard ONVIF Profile S device with RTSP H.264 streams. To an NVR or VMS it looks like an ordinary network camera, so it is auto-discovered via WS-Discovery and recorded exactly like a hardware camera."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which NVR and VMS software is compatible with Screen2ipcam?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any recorder that supports ONVIF Profile S or plain RTSP H.264. This includes Hikvision and Dahua NVRs, Blue Iris, Synology Surveillance Station, Milestone, iSpy/Agent DVR, Frigate, Shinobi and most other VMS platforms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Screen2ipcam require .NET or other dependencies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Screen2ipcam is a native C++ application with no .NET, Java or external runtime requirements. It runs as a single lightweight executable on Windows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a free version of Screen2ipcam?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The Microsoft Store edition is free to use. It runs clean for 14 days, then adds a small watermark to the video, but it never expires and keeps working. A one-time full license (about $20) removes the watermark."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Windows versions and architectures are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Screen2ipcam supports Windows 7 SP1, 8, 8.1, 10 and 11, in both 32-bit and 64-bit editions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which network ports does Screen2ipcam use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ONVIF service on port 8000, RTSP on port 554, WS-Discovery on port 3702, and the built-in web admin panel on port 8080. Make sure these are allowed through the Windows firewall on your LAN."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the default login credentials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The default ONVIF and web admin credentials are admin / admin. You should change them in the web admin panel (port 8080) before using Screen2ipcam on a shared network."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Screen2ipcam support audio or other codecs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Screen2ipcam streams H.264 video only and runs on Windows only. It provides both a main stream and a lower-resolution sub stream, which most NVR and VMS software use for smooth live view plus full-quality recording."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --blue:#1746a2;
+    --green:#1fa855;
+    --ink:#12203a;
+    --muted:#54627a;
+    --line:#e3e8f0;
+    --bg:#f6f8fc;
+    --card:#ffffff;
+    --grad:linear-gradient(135deg,#1746a2 0%,#1fa855 100%);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;height:auto;display:block}
+  a{color:var(--blue)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  /* Top bar */
+  .topbar{background:var(--grad);color:#fff}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;letter-spacing:.2px}
+  .brand .dot{width:14px;height:14px;border-radius:4px;background:#fff;opacity:.9}
+  .topnav a{color:#fff;text-decoration:none;font-weight:600;font-size:14px;margin-left:18px;opacity:.92}
+  .topnav a:hover{opacity:1;text-decoration:underline}
+
+  /* Hero */
+  .hero{background:var(--grad);color:#fff;padding:44px 0 52px}
+  .hero h1{font-size:34px;line-height:1.2;margin:0 0 14px;font-weight:800}
+  .hero p.lead{font-size:18px;margin:0 0 22px;opacity:.96;max-width:720px}
+  .hero .banner{border-radius:14px;overflow:hidden;box-shadow:0 18px 45px rgba(8,20,50,.35);margin-bottom:26px;border:1px solid rgba(255,255,255,.25)}
+
+  .badges{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 26px}
+  .badge{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:13px;padding:8px 14px;border-radius:999px;backdrop-filter:blur(2px)}
+
+  .dl-row{display:flex;flex-wrap:wrap;gap:14px}
+  .btn{display:inline-flex;flex-direction:column;text-decoration:none;font-weight:700;border-radius:12px;padding:14px 22px;min-width:210px;transition:transform .12s ease, box-shadow .12s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn small{font-weight:600;font-size:12px;opacity:.85;display:block}
+  .btn-primary{background:#fff;color:var(--blue);box-shadow:0 10px 24px rgba(8,20,50,.28)}
+  .btn-secondary{background:rgba(255,255,255,.12);color:#fff;border:1.5px solid rgba(255,255,255,.6)}
+  .btn-store{background:#0f2f7a;color:#fff;border:1.5px solid rgba(255,255,255,.35)}
+
+  /* Sections */
+  section{padding:46px 0}
+  section.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  h2{font-size:26px;margin:0 0 8px;font-weight:800;line-height:1.25}
+  h2 .accent{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .sub{color:var(--muted);font-size:16px;margin:0 0 26px;max-width:760px}
+  h3{font-size:19px;margin:26px 0 8px;font-weight:700}
+  p{margin:0 0 14px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+  .card h3{margin-top:0}
+  .card .num{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:9px;background:var(--grad);color:#fff;font-weight:800;margin-bottom:10px}
+
+  .pill{display:inline-block;background:#eef3fb;color:var(--blue);border:1px solid #d6e2f5;font-weight:700;font-size:12px;padding:3px 10px;border-radius:999px;margin:0 6px 6px 0}
+
+  .kv{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+  .kv div{display:flex;justify-content:space-between;gap:16px;padding:11px 16px;border-bottom:1px solid var(--line);font-size:14px}
+  .kv div:last-child{border-bottom:none}
+  .kv b{color:var(--ink)}
+  .kv span{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
+  code{background:#eef1f6;border:1px solid var(--line);border-radius:6px;padding:1px 7px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;font-size:13.5px;color:#0f2f7a;word-break:break-word}
+
+  /* Table */
+  .table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+  table{border-collapse:collapse;width:100%;min-width:520px;background:#fff;font-size:14.5px}
+  th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line)}
+  th{background:#f0f4fb;font-weight:700}
+  td.yes{color:var(--green);font-weight:700}
+  td.no{color:#a04040;font-weight:700}
+  tr:last-child td{border-bottom:none}
+
+  .howimg{border-radius:14px;overflow:hidden;border:1px solid var(--line);box-shadow:0 10px 30px rgba(8,20,50,.10);margin-top:8px}
+
+  /* NVR quick add */
+  .nvr{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+  .nvr .card h3{display:flex;align-items:center;gap:8px}
+  .nvr .tag{font-size:11px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:#fff;background:var(--blue);padding:2px 8px;border-radius:6px}
+  .nvr ol{margin:6px 0 0;padding-left:20px}
+  .nvr li{margin-bottom:5px;font-size:14px}
+
+  /* FAQ */
+  details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:2px 18px;margin-bottom:12px}
+  details[open]{box-shadow:0 8px 22px rgba(8,20,50,.06)}
+  summary{cursor:pointer;font-weight:700;padding:15px 0;list-style:none;position:relative;padding-right:28px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";position:absolute;right:2px;top:13px;font-size:22px;color:var(--blue);font-weight:700}
+  details[open] summary::after{content:"–"}
+  details p{color:var(--muted);margin:0 0 16px}
+
+  /* CTA band */
+  .cta{background:var(--grad);color:#fff;border-radius:16px;padding:34px;text-align:center;margin-top:8px}
+  .cta h2{color:#fff}
+  .cta .sub{color:rgba(255,255,255,.9);margin:0 auto 22px}
+  .cta .dl-row{justify-content:center}
+
+  /* Footer */
+  footer{background:#0d1b34;color:#c3cde0;padding:38px 0 30px;font-size:14px}
+  footer a{color:#fff;text-decoration:none}
+  footer a:hover{text-decoration:underline}
+  .foot-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;margin-bottom:24px}
+  .foot-grid h4{color:#fff;font-size:14px;margin:0 0 12px;letter-spacing:.4px;text-transform:uppercase}
+  .foot-grid ul{list-style:none;margin:0;padding:0}
+  .foot-grid li{margin-bottom:8px}
+  .foot-bottom{border-top:1px solid #22304f;padding-top:18px;color:#8b98b4;font-size:13px}
+
+  @media (max-width:640px){
+    .hero h1{font-size:27px}
+    .hero p.lead{font-size:16px}
+    .btn{min-width:100%}
+    h2{font-size:22px}
+    .topnav{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- Top bar -->
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span> Screen2ipcam</div>
+    <nav class="topnav">
+      <a href="#how">How it works</a>
+      <a href="#setup">Setup</a>
+      <a href="#nvr">NVR guide</a>
+      <a href="#compare">Compare</a>
+      <a href="#faq">FAQ</a>
+      <a href="#download">Download</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="download">
+  <div class="wrap">
+    <h1>Turn any Windows PC screen into an ONVIF / RTSP IP camera</h1>
+    <p class="lead">Screen2ipcam is a native Windows app (C++, no .NET or extra dependencies) that publishes your screen as a standard <strong>ONVIF Profile S</strong> / <strong>RTSP H.264</strong> camera. Your NVR or VMS auto-discovers it on the network and records it like any hardware camera.</p>
+
+    <div class="banner">
+      <img src="https://store-images.s-microsoft.com/image/apps.55286.14218223384796662.e5077264-3d8d-453c-8fe7-adf4ef331041.6a34ed7a-6460-48c2-be0c-b51259adb5e4" alt="Screen2ipcam — Windows screen exposed as an ONVIF / RTSP H.264 IP camera" width="1200" height="630">
+    </div>
+
+    <div class="badges">
+      <span class="badge">Windows 7 – 11</span>
+      <span class="badge">ONVIF Profile S</span>
+      <span class="badge">RTSP H.264</span>
+      <span class="badge">32 &amp; 64-bit</span>
+      <span class="badge">Main + Sub streams</span>
+      <span class="badge">No .NET dependencies</span>
+    </div>
+
+    <div class="dl-row">
+      <a class="btn btn-primary" href="https://magicweb.win">Download &amp; buy — magicweb.win <small>Full license, one-time ~$20</small></a>
+      <a class="btn btn-secondary" href="https://sourceforge.net/projects/screen2ipcam/files/">Download on SourceForge <small>Installer &amp; portable builds</small></a>
+      <a class="btn btn-store" href="https://apps.microsoft.com/detail/9pjdgr30l9l1">Get it free on Microsoft Store <small>14 days clean, then watermark</small></a>
+    </div>
+  </div>
+</section>
+
+<!-- What is ONVIF / RTSP -->
+<section id="how">
+  <div class="wrap">
+    <h2>Can a PC be an <span class="accent">ONVIF camera?</span> Yes.</h2>
+    <p class="sub">If you have ever wanted to record a Windows screen the same way your CCTV system records cameras, this is the missing piece. Here is what the two standards mean and why they matter.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>What is ONVIF?</h3>
+        <p>ONVIF is the open standard that lets cameras, NVRs and VMS software from different brands talk to each other. <strong>Profile S</strong> covers live video streaming. Because Screen2ipcam speaks ONVIF Profile S, recorders find it automatically over <code>WS-Discovery</code> and treat it as a normal IP camera — no special drivers, no vendor lock-in.</p>
+      </div>
+      <div class="card">
+        <h3>What is RTSP / H.264?</h3>
+        <p>RTSP is the protocol that carries the live video, and H.264 is the codec that compresses it efficiently. Screen2ipcam serves a full-quality <strong>main stream</strong> and a lighter <strong>sub stream</strong> over RTSP on port <code>554</code>, exactly the layout NVRs expect for smooth multi-camera live view plus high-quality recording.</p>
+      </div>
+      <div class="card">
+        <h3>Why capture a screen this way?</h3>
+        <p>Instead of a separate screen recorder that only saves local files, your PC becomes one more camera in the system you already run. It appears in the same timeline, motion detection, storage retention and remote access as your real cameras — dashboards, kiosks, machines, POS, or a second PC all get archived automatically.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- How it works image + setup -->
+<section class="alt" id="setup">
+  <div class="wrap">
+    <h2>Set it up in <span class="accent">4 steps</span></h2>
+    <p class="sub">From install to recording usually takes a couple of minutes. No cabling, no capture card, no cloud account.</p>
+
+    <div class="howimg">
+      <img src="https://store-images.s-microsoft.com/image/apps.2627.14218223384796662.3176134c-4b17-4078-b87b-507e77a48300.aad65ba4-c716-4e01-95b6-891dcd497774" alt="How Screen2ipcam works: Windows screen to ONVIF / RTSP stream discovered by an NVR" width="1200" height="675">
+    </div>
+
+    <div class="grid" style="margin-top:26px">
+      <div class="card">
+        <span class="num">1</span>
+        <h3>Install &amp; run on the PC</h3>
+        <p>Install Screen2ipcam on the Windows PC whose screen you want to capture (Windows 7 SP1 → 11, 32 or 64-bit). It starts serving immediately as a native app — nothing else to install.</p>
+      </div>
+      <div class="card">
+        <span class="num">2</span>
+        <h3>Allow it through the firewall</h3>
+        <p>Let these ports through on your LAN: ONVIF <code>8000</code>, RTSP <code>554</code>, WS-Discovery <code>3702</code>, and web admin <code>8080</code>. Note the PC's local IP address (e.g. <code>192.168.1.50</code>).</p>
+      </div>
+      <div class="card">
+        <span class="num">3</span>
+        <h3>Add it to your NVR / VMS</h3>
+        <p>Use your recorder's <em>ONVIF auto-search</em> to discover it, or add it manually with the IP, ONVIF port <code>8000</code>, and login <code>admin / admin</code> (change this in the web admin panel first).</p>
+      </div>
+      <div class="card">
+        <span class="num">4</span>
+        <h3>Record &amp; view</h3>
+        <p>The main and sub streams appear like any camera channel. Enable continuous or motion recording, set retention, and view the screen live from anywhere your NVR is reachable.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:30px">Connection reference</h3>
+    <div class="kv" style="max-width:520px">
+      <div><b>ONVIF service port</b><span>8000</span></div>
+      <div><b>RTSP port (H.264)</b><span>554</span></div>
+      <div><b>WS-Discovery</b><span>3702</span></div>
+      <div><b>Web admin panel</b><span>http://&lt;PC-IP&gt;:8080</span></div>
+      <div><b>Default credentials</b><span>admin / admin</span></div>
+      <div><b>Streams</b><span>Main + Sub (H.264)</span></div>
+    </div>
+    <p style="margin-top:12px;color:var(--muted);font-size:14px">Tip: if your NVR asks for an RTSP URL directly, use <code>rtsp://&lt;PC-IP&gt;:554</code> and enter the ONVIF credentials. Change the default password in the web admin panel before deploying on a shared network.</p>
+  </div>
+</section>
+
+<!-- NVR quick add -->
+<section id="nvr">
+  <div class="wrap">
+    <h2>Quick add per recorder</h2>
+    <p class="sub">Screen2ipcam works with anything that supports ONVIF Profile S or plain RTSP H.264. Here is the short path for three popular systems.</p>
+
+    <div class="nvr">
+      <div class="card">
+        <h3><span class="tag">Hikvision</span></h3>
+        <ol>
+          <li>Go to <em>Configuration → System → Camera Management</em>.</li>
+          <li>Click <em>Custom / Add</em>, set protocol to <strong>ONVIF</strong>.</li>
+          <li>Enter the PC IP, port <code>8000</code>, user <code>admin</code>, password.</li>
+          <li>Save — the screen appears as a new channel with main + sub streams.</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h3><span class="tag">Dahua</span></h3>
+        <ol>
+          <li>Open <em>Camera → Registration → Device Search</em>.</li>
+          <li>Or click <em>Manual Add</em> and choose <strong>ONVIF</strong>.</li>
+          <li>Enter IP, ONVIF port <code>8000</code>, and the credentials.</li>
+          <li>Apply — verify the live view, then enable recording.</li>
+        </ol>
+      </div>
+      <div class="card">
+        <h3><span class="tag">Blue Iris</span></h3>
+        <ol>
+          <li>Add a new camera → <em>Network IP</em>.</li>
+          <li>Use <em>Find/Inspect</em> (ONVIF) or set the make to <strong>ONVIF</strong>.</li>
+          <li>Enter IP, ONVIF port <code>8000</code>, RTSP <code>554</code>, credentials.</li>
+          <li>Pick main stream for recording, sub stream for live preview.</li>
+        </ol>
+      </div>
+    </div>
+    <p style="margin-top:18px;color:var(--muted);font-size:14px">The same approach works for Synology Surveillance Station, Milestone, Agent DVR / iSpy, Frigate, Shinobi and other ONVIF/RTSP platforms.</p>
+  </div>
+</section>
+
+<!-- Use cases -->
+<section class="alt">
+  <div class="wrap">
+    <h2>What people use it for</h2>
+    <p class="sub">Any moment where "record what is on that screen, into the system I already trust" is the goal.</p>
+    <div>
+      <span class="pill">Dashboards &amp; monitoring walls</span>
+      <span class="pill">Point-of-sale / cashier screens</span>
+      <span class="pill">Machine &amp; SCADA / HMI panels</span>
+      <span class="pill">Reception &amp; kiosk displays</span>
+      <span class="pill">Trading / finance terminals</span>
+      <span class="pill">Remote lab &amp; test benches</span>
+      <span class="pill">Digital signage proof-of-play</span>
+      <span class="pill">Second PC or server console</span>
+      <span class="pill">Classroom &amp; training capture</span>
+      <span class="pill">Compliance / audit archiving</span>
+    </div>
+  </div>
+</section>
+
+<!-- Comparison -->
+<section id="compare">
+  <div class="wrap">
+    <h2>Screen recorder vs. Screen2ipcam</h2>
+    <p class="sub">A regular screen recorder saves files on the same PC. Screen2ipcam makes the screen a first-class camera in your surveillance system.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Capability</th>
+            <th>Typical screen recorder</th>
+            <th>Screen2ipcam</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Appears as an ONVIF Profile S camera</td><td class="no">No</td><td class="yes">Yes</td></tr>
+          <tr><td>RTSP H.264 main + sub streams</td><td class="no">No</td><td class="yes">Yes</td></tr>
+          <tr><td>Auto-discovered by NVR / VMS</td><td class="no">No</td><td class="yes">Yes (WS-Discovery)</td></tr>
+          <tr><td>Recorded into your existing CCTV timeline</td><td class="no">No</td><td class="yes">Yes</td></tr>
+          <tr><td>Central retention, motion &amp; remote access</td><td class="no">Local only</td><td class="yes">Handled by the NVR</td></tr>
+          <tr><td>Runs without .NET / extra runtimes</td><td>Varies</td><td class="yes">Native C++</td></tr>
+          <tr><td>Free edition available</td><td>Varies</td><td class="yes">Yes (Microsoft Store)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:14px;color:var(--muted);font-size:14px">Honest note: Screen2ipcam is Windows-only and streams H.264 video only. If you need audio, other codecs, or a cross-platform tool, it is not the right fit.</p>
+  </div>
+</section>
+
+<!-- Editions / pricing -->
+<section class="alt">
+  <div class="wrap">
+    <h2>Editions</h2>
+    <p class="sub">Try it free first. Buy once when you are ready — no subscription.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Free — Microsoft Store</h3>
+        <p>Runs clean for 14 days, then adds a small watermark to the video. <strong>Never expires</strong> and keeps working. Great for testing compatibility with your NVR.</p>
+        <a class="btn btn-store" style="min-width:auto;margin-top:6px" href="https://apps.microsoft.com/detail/9pjdgr30l9l1">Get free on Microsoft Store</a>
+      </div>
+      <div class="card">
+        <h3>Full license — one-time ~$20</h3>
+        <p>Removes the watermark permanently. A single one-time payment, no recurring fees. Download from magicweb.win or SourceForge.</p>
+        <a class="btn btn-primary" style="min-width:auto;margin-top:6px;box-shadow:none;border:1.5px solid var(--blue)" href="https://magicweb.win">Buy on magicweb.win</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <h2>Frequently asked questions</h2>
+    <p class="sub">The essentials about ONVIF, RTSP, compatibility, licensing and setup.</p>
+
+    <details open>
+      <summary>Can a Windows PC really act as an ONVIF IP camera?</summary>
+      <p>Yes. Screen2ipcam exposes your Windows screen as a standard ONVIF Profile S device with RTSP H.264 streams. To an NVR or VMS it looks like an ordinary network camera, so it is auto-discovered via WS-Discovery and recorded exactly like a hardware camera.</p>
+    </details>
+    <details>
+      <summary>Which NVR and VMS software is compatible with Screen2ipcam?</summary>
+      <p>Any recorder that supports ONVIF Profile S or plain RTSP H.264. This includes Hikvision and Dahua NVRs, Blue Iris, Synology Surveillance Station, Milestone, iSpy/Agent DVR, Frigate, Shinobi and most other VMS platforms.</p>
+    </details>
+    <details>
+      <summary>Does Screen2ipcam require .NET or other dependencies?</summary>
+      <p>No. Screen2ipcam is a native C++ application with no .NET, Java or external runtime requirements. It runs as a single lightweight executable on Windows.</p>
+    </details>
+    <details>
+      <summary>Is there a free version of Screen2ipcam?</summary>
+      <p>Yes. The Microsoft Store edition is free to use. It runs clean for 14 days, then adds a small watermark to the video, but it never expires and keeps working. A one-time full license (about $20) removes the watermark.</p>
+    </details>
+    <details>
+      <summary>Which Windows versions and architectures are supported?</summary>
+      <p>Screen2ipcam supports Windows 7 SP1, 8, 8.1, 10 and 11, in both 32-bit and 64-bit editions.</p>
+    </details>
+    <details>
+      <summary>Which network ports does Screen2ipcam use?</summary>
+      <p>ONVIF service on port 8000, RTSP on port 554, WS-Discovery on port 3702, and the built-in web admin panel on port 8080. Make sure these are allowed through the Windows firewall on your LAN.</p>
+    </details>
+    <details>
+      <summary>What are the default login credentials?</summary>
+      <p>The default ONVIF and web admin credentials are admin / admin. You should change them in the web admin panel (port 8080) before using Screen2ipcam on a shared network.</p>
+    </details>
+    <details>
+      <summary>Does Screen2ipcam support audio or other codecs?</summary>
+      <p>Screen2ipcam streams H.264 video only and runs on Windows only. It provides both a main stream and a lower-resolution sub stream, which most NVR and VMS software use for smooth live view plus full-quality recording.</p>
+    </details>
+  </div>
+</section>
+
+<!-- CTA -->
+<section>
+  <div class="wrap">
+    <div class="cta">
+      <h2>Ready to record your screen as a real IP camera?</h2>
+      <p class="sub">Start free on the Microsoft Store, or get the full one-time license. Windows 7 – 11, ONVIF Profile S, RTSP H.264.</p>
+      <div class="dl-row">
+        <a class="btn btn-primary" href="https://magicweb.win">magicweb.win <small>Full license ~$20</small></a>
+        <a class="btn btn-secondary" href="https://sourceforge.net/projects/screen2ipcam/files/">SourceForge <small>Direct downloads</small></a>
+        <a class="btn btn-store" href="https://apps.microsoft.com/detail/9pjdgr30l9l1">Microsoft Store <small>Free edition</small></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>Screen2ipcam</h4>
+        <p style="margin:0;color:#8b98b4">A native Windows app that turns any PC screen into a standard ONVIF Profile S / RTSP H.264 IP camera your NVR or VMS can record.</p>
+      </div>
+      <div>
+        <h4>Download</h4>
+        <ul>
+          <li><a href="https://magicweb.win">magicweb.win (full license)</a></li>
+          <li><a href="https://sourceforge.net/projects/screen2ipcam/files/">SourceForge</a></li>
+          <li><a href="https://apps.microsoft.com/detail/9pjdgr30l9l1">Microsoft Store (free)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="#how">Can a PC be an ONVIF camera?</a></li>
+          <li><a href="#setup">4-step setup</a></li>
+          <li><a href="#nvr">Hikvision / Dahua / Blue Iris</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Official site</h4>
+        <ul>
+          <li><a href="https://magicweb.win">magicweb.win — home</a></li>
+          <li><a href="https://magicweb.win">Buy &amp; licensing</a></li>
+          <li><a href="https://magicweb.win">Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      Screen2ipcam is Windows-only and streams H.264 video only. Windows, ONVIF and RTSP are technologies of their respective owners. &copy; 2026 MagicWeb — <a href="https://magicweb.win">magicweb.win</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
