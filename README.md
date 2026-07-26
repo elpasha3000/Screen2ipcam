@@ -17,6 +17,7 @@ record it in any **NVR or VMS**, with **no capture card** and **no hardware enco
 
 <a href="https://apps.microsoft.com/detail/9pjdgr30l9l1"><img src="https://img.shields.io/badge/Microsoft%20Store-Signed%20%C2%B7%20zero%20warnings-0078D6?logo=microsoftstore&logoColor=white" alt="Get it on the Microsoft Store"></a>&nbsp;
 <a href="https://sourceforge.net/projects/screen2ipcam/files/latest/download"><img src="https://img.shields.io/sourceforge/dt/screen2ipcam?logo=sourceforge&logoColor=white&label=SourceForge&color=FF6600" alt="Download on SourceForge"></a>&nbsp;
+<img src="https://img.shields.io/badge/version-1.1.5-16a34a" alt="Current version 1.1.5">&nbsp;
 <img src="https://img.shields.io/badge/Free%20trial-14%20days%20%C2%B7%20full%20features-16a34a" alt="Free 14-day trial">&nbsp;
 <a href="https://www.softpedia.com/get/Internet/Streaming/Screen2ipcam.shtml"><img src="https://img.shields.io/badge/Softpedia-★%205.0%2F5%20%C2%B7%20100%25%20CLEAN-f59e0b" alt="Softpedia 5.0/5, Certified 100% Clean"></a>
 
@@ -94,8 +95,8 @@ Anywhere you'd like a screen visible inside your existing surveillance system:
 | | Download | Notes |
 |---|---|---|
 | 🌐 | **[magicweb.win](https://magicweb.win/#download)** | Official site — all download options |
-| 💾 | [Screen2ipcam_Setup_1.1.4_**x64**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.4_x64.exe) | 64-bit — modern PCs |
-| 🖥️ | [Screen2ipcam_Setup_1.1.4_**x86**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.4_x86.exe) | 32-bit — older / embedded / POS |
+| 💾 | [Screen2ipcam_Setup_1.1.5_**x64**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.5_x64.exe) | 64-bit — modern PCs |
+| 🖥️ | [Screen2ipcam_Setup_1.1.5_**x86**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.5_x86.exe) | 32-bit — older / embedded / POS |
 | 📘 | [User guide — English (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_EN.pdf) | Ports, NVR setup, Dahua & Hikvision |
 | 📗 | [دليل الاستخدام — عربي (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_AR.pdf) | الدليل الكامل بالعربية |
 
