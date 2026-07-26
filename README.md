@@ -33,11 +33,11 @@ record it in any **NVR or VMS**, with **no capture card** and **no hardware enco
 
 <br><br>
 
-<a href="https://apps.microsoft.com/detail/9pjdgr30l9l1?cid=github"><img src="https://get.microsoft.com/images/en-us%20dark.svg" height="52" alt="Get Screen2ipcam from the Microsoft Store"></a>
+<a href="https://apps.microsoft.com/detail/9pjdgr30l9l1?src=github"><img src="https://get.microsoft.com/images/en-us%20dark.svg" height="52" alt="Get Screen2ipcam from the Microsoft Store"></a>
 &nbsp;&nbsp;
 <a href="https://sourceforge.net/projects/screen2ipcam/files/latest/download"><img src="https://a.fsdn.com/con/app/sf-download-button" height="52" alt="Download Screen2ipcam from SourceForge"></a>
 
-🌐 Official site — **[magicweb.win](https://magicweb.win)**
+🌐 Official site — **[magicweb.win](https://magicweb.win/?src=github)**
 
 </div>
 
@@ -86,7 +86,7 @@ Anywhere you'd like a screen visible inside your existing surveillance system:
 
 <div align="center">
 
-<a href="https://apps.microsoft.com/detail/9pjdgr30l9l1?cid=github"><img src="https://get.microsoft.com/images/en-us%20dark.svg" height="56" alt="Get Screen2ipcam from the Microsoft Store"></a>
+<a href="https://apps.microsoft.com/detail/9pjdgr30l9l1?src=github"><img src="https://get.microsoft.com/images/en-us%20dark.svg" height="56" alt="Get Screen2ipcam from the Microsoft Store"></a>
 
 </div>
 
@@ -94,11 +94,11 @@ Anywhere you'd like a screen visible inside your existing surveillance system:
 
 | | Download | Notes |
 |---|---|---|
-| 🌐 | **[magicweb.win](https://magicweb.win/#download)** | Official site — all download options |
-| 💾 | [Screen2ipcam_Setup_1.1.5_**x64**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.5_x64.exe) | 64-bit — modern PCs |
-| 🖥️ | [Screen2ipcam_Setup_1.1.5_**x86**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.5_x86.exe) | 32-bit — older / embedded / POS |
-| 📘 | [User guide — English (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_EN.pdf) | Ports, NVR setup, Dahua & Hikvision |
-| 📗 | [دليل الاستخدام — عربي (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_AR.pdf) | الدليل الكامل بالعربية |
+| 🌐 | **[magicweb.win](https://magicweb.win/?src=github#download)** | Official site — all download options |
+| 💾 | [Screen2ipcam_Setup_1.1.5_**x64**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.5_x64.exe?src=github) | 64-bit — modern PCs |
+| 🖥️ | [Screen2ipcam_Setup_1.1.5_**x86**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.5_x86.exe?src=github) | 32-bit — older / embedded / POS |
+| 📘 | [User guide — English (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_EN.pdf?src=github) | Ports, NVR setup, Dahua & Hikvision |
+| 📗 | [دليل الاستخدام — عربي (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_AR.pdf?src=github) | الدليل الكامل بالعربية |
 
 The trial is **14 days, fully functional**. A one-time license unlocks the full version — **no watermark, no time limit**.
 
@@ -149,7 +149,7 @@ For a segmented camera VLAN, the NVR only needs to reach the PC on **554** and *
 
 ### 🚀 Quick start — 3 steps
 
-1. **Install** from the [Microsoft Store](https://apps.microsoft.com/detail/9pjdgr30l9l1?cid=github) (signed) or [download](#download) the installer.
+1. **Install** from the [Microsoft Store](https://apps.microsoft.com/detail/9pjdgr30l9l1?src=github) (signed) or [download](#download) the installer.
 2. **Open the control panel** — default login `admin` / `admin`.
 3. **On your NVR:** Add Camera → **ONVIF** (auto-discover, or enter the PC's IP + port `8000`). Done — it records like any camera.
 
@@ -211,7 +211,7 @@ For a segmented camera VLAN, the NVR only needs to reach the PC on **554** and *
 
 <div align="center">
 
-**[Get your license at magicweb.win →](https://magicweb.win/#pricing)**
+**[Get your license at magicweb.win →](https://magicweb.win/?src=github#pricing)**
 
 </div>
 
@@ -281,14 +281,14 @@ Any system that supports **ONVIF** or **RTSP**. Tested with **Dahua**, **Hikvisi
 <summary><b>Why does Windows warn about the direct installer?</b></summary>
 <br>
 
-The direct EXE is native and not code-signed yet, so SmartScreen may flag it as unknown (a false positive — it's safe to keep). For a **zero-warning install**, use the **[Microsoft Store edition](https://apps.microsoft.com/detail/9pjdgr30l9l1?cid=github)**, which is signed by Microsoft.
+The direct EXE is native and not code-signed yet, so SmartScreen may flag it as unknown (a false positive — it's safe to keep). For a **zero-warning install**, use the **[Microsoft Store edition](https://apps.microsoft.com/detail/9pjdgr30l9l1?src=github)**, which is signed by Microsoft.
 </details>
 
 <details>
 <summary><b>How do I get my license after paying?</b></summary>
 <br>
 
-Send your **Device ID** (from the app's License tab) via the [contact form](https://magicweb.win/#contact) or email. We generate and send your license file, usually within hours. Each license activates **one PC**, locked to its Device ID.
+Send your **Device ID** (from the app's License tab) via the [contact form](https://magicweb.win/?src=github#contact) or email. We generate and send your license file, usually within hours. Each license activates **one PC**, locked to its Device ID.
 </details>
 
 <details>
@@ -323,7 +323,7 @@ Especially useful to us: your **NVR / VMS model**, **ONVIF discovery result**, a
 
 **Screen2ipcam** — Your Windows screen. Your IP camera.
 
-🌐 **[magicweb.win](https://magicweb.win)** &nbsp;·&nbsp; 📧 **[support@magicweb.win](mailto:support@magicweb.win)** &nbsp;·&nbsp; 🏬 **[Microsoft Store](https://apps.microsoft.com/detail/9pjdgr30l9l1?cid=github)**
+🌐 **[magicweb.win](https://magicweb.win/?src=github)** &nbsp;·&nbsp; 📧 **[support@magicweb.win](mailto:support@magicweb.win)** &nbsp;·&nbsp; 🏬 **[Microsoft Store](https://apps.microsoft.com/detail/9pjdgr30l9l1?src=github)**
 
 ⭐ *If Screen2ipcam is useful to you, a star helps others find it.*
 
