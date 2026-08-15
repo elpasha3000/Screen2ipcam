@@ -17,7 +17,7 @@ record it in any **NVR or VMS**, with **no capture card** and **no hardware enco
 
 <a href="https://apps.microsoft.com/detail/9pjdgr30l9l1"><img src="https://img.shields.io/badge/Microsoft%20Store-Signed%20%C2%B7%20zero%20warnings-0078D6?logo=microsoftstore&logoColor=white" alt="Get it on the Microsoft Store"></a>&nbsp;
 <a href="https://sourceforge.net/projects/screen2ipcam/files/latest/download"><img src="https://img.shields.io/sourceforge/dt/screen2ipcam?logo=sourceforge&logoColor=white&label=SourceForge&color=FF6600" alt="Download on SourceForge"></a>&nbsp;
-<img src="https://img.shields.io/badge/version-1.1.5-16a34a" alt="Current version 1.1.5">&nbsp;
+<img src="https://img.shields.io/badge/version-2.0.1-16a34a" alt="Current version 2.0.1">&nbsp;
 <img src="https://img.shields.io/badge/Free%20trial-14%20days%20%C2%B7%20full%20features-16a34a" alt="Free 14-day trial">&nbsp;
 <a href="https://www.softpedia.com/get/Internet/Streaming/Screen2ipcam.shtml"><img src="https://img.shields.io/badge/Softpedia-★%205.0%2F5%20%C2%B7%20100%25%20CLEAN-f59e0b" alt="Softpedia 5.0/5, Certified 100% Clean"></a>
 
@@ -79,6 +79,55 @@ Anywhere you'd like a screen visible inside your existing surveillance system:
 
 <br>
 
+<a id="whats-new"></a>
+## 🆕 New in 2.0.1
+
+<table>
+<tr><td width="55%" valign="top">
+
+**🔊 Sound, not just picture**<br>
+The PC's own audio now travels inside the same stream using the standard
+**G.711** codec, so your recorder stores sound and video together on one
+timeline. Off by default, and it only runs while somebody is watching.
+
+**🏷️ Camera name and time on the image**<br>
+Burn the camera name and the date & time into the picture — pick the corner,
+colour, size and opacity for each, independently.
+
+**🔴 Privacy alert**<br>
+An optional badge on the streaming PC's own screen while a viewer is
+connected, so the person at the machine knows.
+
+**👁️ Connected devices**<br>
+See which recorders are pulling the stream right now, their addresses,
+and for how long.
+
+**➕ Also in this release**<br>
+Wider recorder compatibility (the sub/SD stream now works on every recorder
+we tested) · fixed the picture being cut off at 125% / 150% display scaling ·
+the picture follows a resolution change automatically · separate **Save** and
+**Apply** buttons · a confirmation before the camera is closed.
+
+📄 **[Full release notes →](https://magicweb.win/updates.html?src=github)**
+
+</td><td width="45%" valign="top">
+
+<img src="images/panel-stream-extras.png" alt="Stream extras tab: audio, camera name, date and time, privacy alert">
+<sub>The new <b>Stream extras</b> tab</sub>
+
+<img src="images/panel-status.png" alt="Status tab listing the recorders connected right now">
+<sub><b>Connected devices</b> on the Status tab</sub>
+
+</td></tr>
+</table>
+
+<div align="center">
+<img src="images/nvr-with-audio.jpg" width="88%" alt="An NVR recording a Windows PC screen as a camera, with audio">
+<br><sub>Illustration — how it appears on a recorder</sub>
+</div>
+
+<br>
+
 <a id="download"></a>
 ## ⬇️ Download — free 14-day trial
 
@@ -95,8 +144,8 @@ Anywhere you'd like a screen visible inside your existing surveillance system:
 | | Download | Notes |
 |---|---|---|
 | 🌐 | **[magicweb.win](https://magicweb.win/?src=github#download)** | Official site — all download options |
-| 💾 | [Screen2ipcam_Setup_1.1.5_**x64**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.5_x64.exe?src=github) | 64-bit — modern PCs |
-| 🖥️ | [Screen2ipcam_Setup_1.1.5_**x86**.exe](https://magicweb.win/downloads/Screen2ipcam_Setup_1.1.5_x86.exe?src=github) | 32-bit — older / embedded / POS |
+| 💾 | [Screen2ipcam Setup — **x64**](https://magicweb.win/downloads/Screen2ipcam_Setup_x64.exe?src=github) | 64-bit — modern PCs |
+| 🖥️ | [Screen2ipcam Setup — **x86**](https://magicweb.win/downloads/Screen2ipcam_Setup_x86.exe?src=github) | 32-bit — older / embedded / POS |
 | 📘 | [User guide — English (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_EN.pdf?src=github) | Ports, NVR setup, Dahua & Hikvision |
 | 📗 | [دليل الاستخدام — عربي (PDF)](https://magicweb.win/downloads/Screen2ipcam_Guide_AR.pdf?src=github) | الدليل الكامل بالعربية |
 
@@ -113,7 +162,10 @@ The trial is **14 days, fully functional**. A one-time license unlocks the full 
 | 🎬 **RTSP H.264** | **Main + Sub** streams — perfect for NVR grid views |
 | 🖥️ **Flexible capture** | Full screen, a single window, or a webcam |
 | 📸 **JPEG snapshot** | Standard `GetSnapshotUri` support |
-| 🪶 **Featherweight** | ~0% CPU idle · ~2% while streaming · ~70 MB RAM |
+| 🔊 **Audio (G.711)** | Streams the PC's own sound with the video — recorded by the NVR |
+| 🏷️ **On-screen extras** | Camera name and date/time drawn on the picture, your choice of corner |
+| 👁️ **Connected devices** | See who is watching right now, from where, and for how long |
+| 🪶 **Featherweight** | ~0% CPU idle · ~2% while streaming · ~60 MB RAM |
 | ⚙️ **Native C++** | Static runtime — no .NET, no redistributables |
 | 🪟 **Windows 7 SP1 → 11** | 32-bit & 64-bit — IoT / Embedded / POSReady too |
 | 🛠️ **Always-on** | Installs as a Windows Service, or runs as a tray app |
@@ -159,6 +211,16 @@ For a segmented camera VLAN, the NVR only needs to reach the PC on **554** and *
 ## 🖼️ See it in action
 
 <div align="center">
+
+<img src="images/nvr-live-dahua.png" width="82%" alt="A Dahua NVR showing the PC screen live as a camera channel">
+<br><sub>A real Dahua NVR playing the PC screen as an ordinary camera channel</sub>
+
+<img src="images/after-install.jpg" width="72%" alt="The screen shown after installing: device address, RTSP and ONVIF links, ports">
+<br><sub>Right after install — the address, links and ports, each with a Copy button</sub>
+
+<img src="images/privacy-alert.jpg" width="82%" alt="The optional on-screen alert shown on the streaming PC while somebody is watching">
+<br><sub>Illustration — the optional privacy alert, shown only on the streaming PC</sub>
+
 
 <img src="images/how-it-works.png" alt="Screen2ipcam overview — Windows screen to ONVIF / RTSP, works with Hikvision, Dahua, Blue Iris; use cases: POS, dashboards, hospitals, factories, control rooms, digital signage" width="100%">
 
@@ -268,6 +330,26 @@ Any system that supports **ONVIF** or **RTSP**. Tested with **Dahua**, **Hikvisi
 <br>
 
 **14 days, fully functional.** A license unlocks the full version — no watermark and no time limit.
+</details>
+
+<details>
+<summary><b>Does it record sound?</b></summary>
+
+Yes, since **2.0.1**. It sends what the PC plays (not a microphone) inside the same
+stream using **G.711**. It is off by default, and even when enabled it only runs while
+a viewer is connected.
+
+</details>
+
+<details>
+<summary><b>The recorder shows no sound — what do I set?</b></summary>
+
+On the recorder's channel settings choose audio compression **G.711Mu** (also written
+G.711 µ-law) and audio source **Local** — G.711A, PCM and AAC will not play.
+And if the channel was added to the recorder **before** you switched audio on, remove
+the channel and add it again: the recorder reads the camera's capabilities once, when
+the channel is created. That is the most common cause of silent audio.
+
 </details>
 
 <details>
