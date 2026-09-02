@@ -6,7 +6,7 @@
 
 ### Your Windows screen. Your IP camera.
 
-Turn any Windows PC **screen, window or webcam** into a standard **ONVIF / RTSP IP camera** —<br>
+Turn any Windows PC **screen** into a standard **ONVIF / RTSP IP camera** —<br>
 record it in any **NVR or VMS**, with **no capture card** and **no hardware encoder**.
 
 <br>
@@ -45,7 +45,7 @@ record it in any **NVR or VMS**, with **no capture card** and **no hardware enco
 
 ## 🎯 What is Screen2ipcam?
 
-Screen2ipcam runs on a Windows PC and publishes its **screen, a single window, or a webcam** as a standard **ONVIF Profile S** camera with an **H.264 RTSP** stream (main + sub). Your NVR or VMS — **Dahua, Hikvision, Milestone, Genetec, Nx Witness, Blue Iris** — discovers it like any other IP camera and records it. No HDMI encoder, no capture hardware, no extra PC.
+Screen2ipcam runs on a Windows PC and publishes its **screen** as a standard **ONVIF Profile S** camera with an **H.264 RTSP** stream (main + sub). Your NVR or VMS — **Dahua, Hikvision, Milestone, Genetec, Nx Witness, Blue Iris** — discovers it like any other IP camera and records it. No HDMI encoder, no capture hardware, no extra PC.
 
 ### 🤝 Works with
 
@@ -160,7 +160,7 @@ The trial is **14 days, fully functional**. A one-time license unlocks the full 
 |---|---|
 | 📡 **ONVIF Profile S** | Auto-discovered by NVRs (WS-Discovery), or add by IP |
 | 🎬 **RTSP H.264** | **Main + Sub** streams — perfect for NVR grid views |
-| 🖥️ **Flexible capture** | Full screen, a single window, or a webcam |
+| 🖥️ **Live screen capture** | The full primary screen, exactly as the operator sees it |
 | 📸 **JPEG snapshot** | Standard `GetSnapshotUri` support |
 | 🔊 **Audio (G.711)** | Streams the PC's own sound with the video — recorded by the NVR |
 | 🏷️ **On-screen extras** | Camera name and date/time drawn on the picture, your choice of corner |
