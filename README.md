@@ -17,7 +17,7 @@ record it in any **NVR or VMS**, with **no capture card** and **no hardware enco
 
 <a href="https://apps.microsoft.com/detail/9pjdgr30l9l1"><img src="https://img.shields.io/badge/Microsoft%20Store-Signed%20%C2%B7%20zero%20warnings-0078D6?logo=microsoftstore&logoColor=white" alt="Get it on the Microsoft Store"></a>&nbsp;
 <a href="https://sourceforge.net/projects/screen2ipcam/files/latest/download"><img src="https://img.shields.io/sourceforge/dt/screen2ipcam?logo=sourceforge&logoColor=white&label=SourceForge&color=FF6600" alt="Download on SourceForge"></a>&nbsp;
-<img src="https://img.shields.io/badge/version-2.0.1-16a34a" alt="Current version 2.0.1">&nbsp;
+<img src="https://img.shields.io/badge/version-2.0.3-16a34a" alt="Current version 2.0.3">&nbsp;
 <img src="https://img.shields.io/badge/Free%20trial-14%20days%20%C2%B7%20full%20features-16a34a" alt="Free 14-day trial">&nbsp;
 <a href="https://www.softpedia.com/get/Internet/Streaming/Screen2ipcam.shtml"><img src="https://img.shields.io/badge/Softpedia-★%205.0%2F5%20%C2%B7%20100%25%20CLEAN-f59e0b" alt="Softpedia 5.0/5, Certified 100% Clean"></a>
 
@@ -54,7 +54,8 @@ Screen2ipcam runs on a Windows PC and publishes its **screen** as a standard **O
 <img src="https://img.shields.io/badge/HIKVISION-tested%20✓-E60012?style=for-the-badge" alt="Hikvision — tested">&nbsp;
 <img src="https://img.shields.io/badge/DAHUA-tested%20✓-D7000F?style=for-the-badge" alt="Dahua — tested">&nbsp;
 <img src="https://img.shields.io/badge/Blue%20Iris-tested%20✓-1e3a8a?style=for-the-badge" alt="Blue Iris — tested">&nbsp;
-<img src="https://img.shields.io/badge/Agent%20DVR-tested%20✓-0f766e?style=for-the-badge" alt="Agent DVR — tested">
+<img src="https://img.shields.io/badge/Agent%20DVR-tested%20✓-0f766e?style=for-the-badge" alt="Agent DVR — tested">&nbsp;
+<img src="https://img.shields.io/badge/UNIVIEW-tested%20✓-0ea5e9?style=for-the-badge" alt="Uniview — tested">
 
 <img src="https://img.shields.io/badge/Milestone%20XProtect-ONVIF-5b21b6?style=flat-square" alt="Milestone XProtect — via ONVIF">&nbsp;
 <img src="https://img.shields.io/badge/Genetec-ONVIF-374151?style=flat-square" alt="Genetec — via ONVIF">&nbsp;
@@ -80,40 +81,45 @@ Anywhere you'd like a screen visible inside your existing surveillance system:
 <br>
 
 <a id="whats-new"></a>
-## 🆕 New in 2.0.1
+## 🆕 What's new in 2.0.3
 
 <table>
-<tr><td width="55%" valign="top">
+<tr><td width="54%" valign="top">
 
-**🔊 Sound, not just picture**<br>
-The PC's own audio now travels inside the same stream using the standard
-**G.711** codec, so your recorder stores sound and video together on one
-timeline. Off by default, and it only runs while somebody is watching.
+**🔗 Rock-solid recorder connections**<br>
+Some recorders send a periodic check to the camera *while* the stream is running.
+Screen2ipcam now answers it, so sessions no longer drop and reconnect every few
+seconds. Common **sub-stream names** are recognised as well, so a recorder that
+asks for the sub-stream really gets it.
 
-**🏷️ Camera name and time on the image**<br>
-Burn the camera name and the date & time into the picture — pick the corner,
-colour, size and opacity for each, independently.
+**🌐 New VPN tab**<br>
+Choose exactly which address your recorder should see, run a **network check**,
+and copy the RTSP link in one click. VPN and virtual adapters are now detected and
+skipped automatically, so the camera announces the address that actually works.
 
-**🔴 Privacy alert**<br>
-An optional badge on the streaming PC's own screen while a viewer is
-connected, so the person at the machine knows.
+**🆔 Identity that survives a reinstall**<br>
+The camera identity now follows the PC hardware, so it stays the same after
+reinstalling Windows.
 
-**👁️ Connected devices**<br>
-See which recorders are pulling the stream right now, their addresses,
-and for how long.
+**🔊 Sound, on-screen extras, live viewers**<br>
+The PC's own audio travels inside the same stream using standard **G.711** · the
+camera name and the date & time can be drawn on the picture, with your choice of
+corner, colour, size and opacity · an optional **privacy alert** on the streaming
+PC while somebody is watching · and a **Connected devices** list showing which
+recorders are pulling the stream right now.
 
-**➕ Also in this release**<br>
-Wider recorder compatibility (the sub/SD stream now works on every recorder
-we tested) · fixed the picture being cut off at 125% / 150% display scaling ·
-the picture follows a resolution change automatically · separate **Save** and
-**Apply** buttons · a confirmation before the camera is closed.
+> ⚠️ **Upgrading from an older build?** Delete the camera in your recorder and add
+> it again, once — it comes back as a new device.
 
 📄 **[Full release notes →](https://magicweb.win/updates.html?src=github)**
 
-</td><td width="45%" valign="top">
+</td><td width="46%" valign="top">
+
+<img src="images/panel-vpn.webp" alt="The VPN tab: choose the address the recorder should see, run a network check, copy the RTSP link">
+<sub>The new <b>VPN</b> tab</sub>
 
 <img src="images/panel-stream-extras.png" alt="Stream extras tab: audio, camera name, date and time, privacy alert">
-<sub>The new <b>Stream extras</b> tab</sub>
+<sub>The <b>Stream extras</b> tab</sub>
 
 <img src="images/panel-status.png" alt="Status tab listing the recorders connected right now">
 <sub><b>Connected devices</b> on the Status tab</sub>
@@ -165,6 +171,7 @@ The trial is **14 days, fully functional**. A one-time license unlocks the full 
 | 🔊 **Audio (G.711)** | Streams the PC's own sound with the video — recorded by the NVR |
 | 🏷️ **On-screen extras** | Camera name and date/time drawn on the picture, your choice of corner |
 | 👁️ **Connected devices** | See who is watching right now, from where, and for how long |
+| 🌐 **VPN & address control** | Pick the address the recorder sees · built-in network check · VPN-aware |
 | 🪶 **Featherweight** | ~0% CPU idle · ~2% while streaming · ~60 MB RAM |
 | ⚙️ **Native C++** | Static runtime — no .NET, no redistributables |
 | 🪟 **Windows 7 SP1 → 11** | 32-bit & 64-bit — IoT / Embedded / POSReady too |
@@ -335,7 +342,7 @@ Any system that supports **ONVIF** or **RTSP**. Tested with **Dahua**, **Hikvisi
 <details>
 <summary><b>Does it record sound?</b></summary>
 
-Yes, since **2.0.1**. It sends what the PC plays (not a microphone) inside the same
+Yes. It sends what the PC plays (not a microphone) inside the same
 stream using **G.711**. It is off by default, and even when enabled it only runs while
 a viewer is connected.
 
@@ -350,6 +357,26 @@ And if the channel was added to the recorder **before** you switched audio on, r
 the channel and add it again: the recorder reads the camera's capabilities once, when
 the channel is created. That is the most common cause of silent audio.
 
+</details>
+
+<details>
+<summary><b>My recorder keeps disconnecting every few seconds — why?</b></summary>
+<br>
+
+That was fixed in **2.0.3**. Some recorders (Uniview among them) send a periodic
+check to the camera while the stream is running; older builds did not answer it, so
+the recorder assumed the camera was gone and reconnected. Update to 2.0.3, then
+delete the channel in the recorder and add it again once.
+</details>
+
+<details>
+<summary><b>The recorder sees the wrong IP address (VPN / virtual adapter)</b></summary>
+<br>
+
+Open the **VPN** tab in the control panel and pick exactly which address the camera
+should announce. VPN and virtual adapters (Tailscale, Hyper-V, VMware, VirtualBox…)
+are detected and skipped automatically, and the built-in **network check** confirms
+the recorder can actually reach that address before you add the channel.
 </details>
 
 <details>
