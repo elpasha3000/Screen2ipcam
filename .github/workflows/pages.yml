@@ -1,6 +1,6 @@
 # Publishes the /docs folder to GitHub Pages.
 # The classic (legacy) Pages builder never produced a build for this repo, so we
-# deploy explicitly with Actions — deterministic and visible in the Actions tab.
+# deploy explicitly with Actions: deterministic and visible in the Actions tab.
 name: Deploy GitHub Pages
 
 on:
