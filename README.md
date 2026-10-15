@@ -34,13 +34,15 @@ recorded by any **NVR, DVR or VMS**, with **no capture card** and **no hardware 
 
 <br><br>
 
-<a href="https://magicweb.win/downloads/Screen2ipcam_Setup_x64.exe"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x64-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x64"></a>&nbsp;
-<a href="https://magicweb.win/downloads/Screen2ipcam_Setup_x86.exe"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x86-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x86"></a>&nbsp;
-<a href="https://magicweb.win/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe"><img src="https://img.shields.io/badge/Download-2.0.5%20for%20Windows%20Server%20x64-0f766e?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam 2.0.5 for Windows Server x64"></a>
+<a href="https://screen2ipcam.com/downloads/Screen2ipcam_Setup_x64.exe"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x64-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x64"></a>&nbsp;
+<a href="https://screen2ipcam.com/downloads/Screen2ipcam_Setup_x86.exe"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x86-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x86"></a>&nbsp;
+<a href="https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe"><img src="https://img.shields.io/badge/Download-2.0.5%20for%20Windows%20Server%20x64-0f766e?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam 2.0.5 for Windows Server x64"></a>
 
 <a href="https://sourceforge.net/projects/screen2ipcam/files/latest/download"><img src="https://a.fsdn.com/con/app/sf-download-button" height="52" alt="Download Screen2ipcam from SourceForge"></a>
 
-🌐 Official site: **[magicweb.win](https://magicweb.win/?src=github)**
+🌐 Official site: **[screen2ipcam.com](https://screen2ipcam.com/?src=github)**
+
+🌍 In your language: [English](https://screen2ipcam.com/) · [العربية](https://screen2ipcam.com/ar/) · [Português](https://screen2ipcam.com/pt/) · [Español](https://screen2ipcam.com/es/) · [Deutsch](https://screen2ipcam.com/de/) · [Русский](https://screen2ipcam.com/ru/) · [日本語](https://screen2ipcam.com/ja/) · [简体中文](https://screen2ipcam.com/zh/)
 
 </div>
 
@@ -109,7 +111,7 @@ Choose exactly which address the recorder should see, run a **network check**, a
 
 2.0.5 installs over your current version and keeps your license and settings.
 
-📄 How motion recording works: **[English](https://magicweb.win/motion/?src=github)** · [العربية](https://magicweb.win/motion/ar/?src=github) · [Português](https://magicweb.win/motion/pt/?src=github) &nbsp;·&nbsp; 📝 **[Full release notes](https://magicweb.win/updates.html?src=github)**
+📄 How motion recording works: **[English](https://screen2ipcam.com/motion/?src=github)** · [العربية](https://screen2ipcam.com/motion/ar/?src=github) · [Português](https://screen2ipcam.com/motion/pt/?src=github) &nbsp;·&nbsp; 📝 **[Full release notes](https://screen2ipcam.com/updates.html?src=github)**
 
 <div align="center">
 <img src="images/mk-nvr-motion.webp" width="92%" alt="An NVR playback timeline for a PC screen channel: motion events over ONVIF start the recording the moment the screen changes, the mouse pointer is visible, and idle hours use no storage">
@@ -154,10 +156,10 @@ Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. It installs 
 
 | | Download | |
 |---|---|---|
-| 💾 | [Screen2ipcam 2.0.5 for Windows Server, **x64**](https://magicweb.win/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe) | 64-bit |
-| 🖥️ | [Screen2ipcam 2.0.5 for Windows Server, **x86**](https://magicweb.win/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x86.exe) | 32-bit |
+| 💾 | [Screen2ipcam 2.0.5 for Windows Server, **x64**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe) | 64-bit |
+| 🖥️ | [Screen2ipcam 2.0.5 for Windows Server, **x86**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x86.exe) | 32-bit |
 
-📄 Edition page: **[English](https://magicweb.win/windows-server/?src=github)** · [العربية](https://magicweb.win/windows-server/ar/?src=github) · [Português](https://magicweb.win/windows-server/pt/?src=github) · [Español](https://magicweb.win/windows-server/es/?src=github) · [Deutsch](https://magicweb.win/windows-server/de/?src=github) · [Русский](https://magicweb.win/windows-server/ru/?src=github)
+📄 Edition page: **[English](https://screen2ipcam.com/windows-server/?src=github)** · [العربية](https://screen2ipcam.com/windows-server/ar/?src=github) · [Português](https://screen2ipcam.com/windows-server/pt/?src=github) · [Español](https://screen2ipcam.com/windows-server/es/?src=github) · [Deutsch](https://screen2ipcam.com/windows-server/de/?src=github) · [Русский](https://screen2ipcam.com/windows-server/ru/?src=github)
 
 <div align="center">
 <img src="images/pos-nvr.webp" width="80%" alt="A cashier POS screen recorded as one channel inside an NVR, next to the store cameras">
@@ -171,14 +173,14 @@ Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. It installs 
 
 | | Download | Notes |
 |---|---|---|
-| 💾 | [Screen2ipcam Setup, **x64**](https://magicweb.win/downloads/Screen2ipcam_Setup_x64.exe) | 64-bit, modern PCs |
-| 🖥️ | [Screen2ipcam Setup, **x86**](https://magicweb.win/downloads/Screen2ipcam_Setup_x86.exe) | 32-bit, older / embedded / POS |
-| 🖧 | [2.0.5 for Windows Server, **x64**](https://magicweb.win/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe) | Servers, POS terminals, shared PCs |
-| 🖧 | [2.0.5 for Windows Server, **x86**](https://magicweb.win/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x86.exe) | 32-bit edition |
-| 🌐 | **[magicweb.win](https://magicweb.win/?src=github#download)** | Official site, all download options |
-| 📘 | [User guide](https://magicweb.win/guide/?src=github) | Ports, NVR setup, Hikvision and Dahua |
-| 🎬 | [Videos](https://magicweb.win/media/?src=github) | Setup and feature walkthroughs |
-| 📝 | [Release notes](https://magicweb.win/updates.html?src=github) | What changed in each version |
+| 💾 | [Screen2ipcam Setup, **x64**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_x64.exe) | 64-bit, modern PCs |
+| 🖥️ | [Screen2ipcam Setup, **x86**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_x86.exe) | 32-bit, older / embedded / POS |
+| 🖧 | [2.0.5 for Windows Server, **x64**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe) | Servers, POS terminals, shared PCs |
+| 🖧 | [2.0.5 for Windows Server, **x86**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x86.exe) | 32-bit edition |
+| 🌐 | **[screen2ipcam.com](https://screen2ipcam.com/?src=github#download)** | Official site, all download options |
+| 📘 | [User guide](https://screen2ipcam.com/guide/?src=github) | Ports, NVR setup, Hikvision and Dahua |
+| 🎬 | [Videos](https://screen2ipcam.com/media/?src=github) | Setup and feature walkthroughs |
+| 📝 | [Release notes](https://screen2ipcam.com/updates.html?src=github) | What changed in each version |
 
 Windows 7 SP1 to Windows 11, 32-bit and 64-bit. The trial is **14 days, fully functional**. A one-time **$20** license unlocks the full version for one PC: **no watermark, no time limit**.
 
@@ -317,7 +319,7 @@ The **Windows Server edition** uses the same lifetime license, **$20 per machine
 
 <div align="center">
 
-**[Get your license at magicweb.win →](https://magicweb.win/?src=github#pricing)**
+**[Get your license at screen2ipcam.com →](https://screen2ipcam.com/?src=github#pricing)**
 
 </div>
 
@@ -380,7 +382,7 @@ Any system that supports **ONVIF** or **RTSP**. Tested with **Hikvision**, **Dah
 <summary><b>Can the recorder record only when the screen changes?</b></summary>
 <br>
 
-Yes, since **2.0.5**. Switch on **Send motion events to the recorder** in the Events tab, then enable motion recording for that channel on the recorder. It works over standard ONVIF, so Hikvision, Dahua, XMEye and the others treat it like motion from a real camera. The feature is off by default, and the **Send test event** button lets you confirm the recorder reacts without touching the screen. Details: [magicweb.win/motion](https://magicweb.win/motion/?src=github).
+Yes, since **2.0.5**. Switch on **Send motion events to the recorder** in the Events tab, then enable motion recording for that channel on the recorder. It works over standard ONVIF, so Hikvision, Dahua, XMEye and the others treat it like motion from a real camera. The feature is off by default, and the **Send test event** button lets you confirm the recorder reacts without touching the screen. Details: [magicweb.win/motion](https://screen2ipcam.com/motion/?src=github).
 </details>
 
 <details>
@@ -455,7 +457,7 @@ SmartScreen sometimes shows a notice for a program it has not seen often. Click 
 <summary><b>How do I get my license after paying?</b></summary>
 <br>
 
-Send your **Device ID** (from the app's License tab) through the [form on the site](https://magicweb.win/?src=github#contact) or by email. We generate and send your license, usually within hours. Paste it into the License tab in any form, even on a single line. Each license activates **one PC**, locked to its Device ID.
+Send your **Device ID** (from the app's License tab) through the [form on the site](https://screen2ipcam.com/?src=github#contact) or by email. We generate and send your license, usually within hours. Paste it into the License tab in any form, even on a single line. Each license activates **one PC**, locked to its Device ID.
 </details>
 
 <details>
@@ -490,7 +492,7 @@ Especially useful to us: your **NVR / VMS model**, **ONVIF discovery result**, a
 
 **Screen2ipcam**: Your Windows screen. Your IP camera.
 
-🌐 **[magicweb.win](https://magicweb.win/?src=github)** &nbsp;·&nbsp; 📧 **[support@magicweb.win](mailto:support@magicweb.win)** &nbsp;·&nbsp; 🖧 **[Windows Server edition](https://magicweb.win/windows-server/?src=github)** &nbsp;·&nbsp; 📝 **[Release notes](https://magicweb.win/updates.html?src=github)**
+🌐 **[screen2ipcam.com](https://screen2ipcam.com/?src=github)** &nbsp;·&nbsp; 📧 **[support@magicweb.win](mailto:support@magicweb.win)** &nbsp;·&nbsp; 🖧 **[Windows Server edition](https://screen2ipcam.com/windows-server/?src=github)** &nbsp;·&nbsp; 📝 **[Release notes](https://screen2ipcam.com/updates.html?src=github)**
 
 ⭐ *If Screen2ipcam is useful to you, a star helps others find it.*
 
