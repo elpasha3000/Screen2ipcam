@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Virtual IP Camera Software for VMS / NVR | Screen2ipcam</title>
+<meta name="description" content="Virtual IP camera software for VMS and NVR: record a Windows PC screen as a standard ONVIF / RTSP camera in Hikvision, Dahua, Nx Witness, Blue Iris and more. What it is and what to check.">
+<meta name="keywords" content="virtual IP camera, virtual IP camera software, virtual ONVIF camera, VMS, NVR, screen to IP camera, ONVIF, RTSP, Windows">
+<link rel="canonical" href="https://elpasha3000.github.io/Screen2ipcam/virtual-ip-camera-software.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Virtual IP Camera Software for VMS / NVR">
+<meta property="og:description" content="Turn a Windows PC screen into a virtual ONVIF / RTSP IP camera your VMS or NVR records like any other camera.">
+<meta property="og:url" content="https://elpasha3000.github.io/Screen2ipcam/virtual-ip-camera-software.html">
+<meta property="og:image" content="https://raw.githubusercontent.com/elpasha3000/Screen2ipcam/main/images/hero-og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+[
+ {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Virtual IP camera software for VMS / NVR",
+  "description": "How a virtual IP camera lets any ONVIF VMS or NVR record a Windows PC screen, and what to check before you choose one.",
+  "datePublished": "2026-11-10",
+  "dateModified": "2026-11-10",
+  "url": "https://elpasha3000.github.io/Screen2ipcam/virtual-ip-camera-software.html",
+  "image": "https://raw.githubusercontent.com/elpasha3000/Screen2ipcam/main/images/hero-og.jpg",
+  "author": {
+   "@type": "Organization",
+   "name": "MagicWeb",
+   "url": "https://screen2ipcam.com"
+  },
+  "publisher": {
+   "@type": "Organization",
+   "name": "MagicWeb",
+   "url": "https://screen2ipcam.com"
+  },
+  "mainEntityOfPage": "https://elpasha3000.github.io/Screen2ipcam/virtual-ip-camera-software.html"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+   {
+    "@type": "Question",
+    "name": "What is a virtual IP camera?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Software that acts like a network camera, but the picture comes from a computer. Screen2ipcam publishes the Windows screen as an ONVIF Profile S camera with an RTSP H.264 stream."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Which VMS or NVR can record it?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "Recorders and VMS that support ONVIF cameras, for example Hikvision, Dahua, Nx Witness and Blue Iris. Anything that opens an RTSP stream can use it too."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Do I need a capture card or HDMI encoder?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "No. The screen is captured in software and sent over the network like any IP camera."
+    }
+   },
+   {
+    "@type": "Question",
+    "name": "Does it need internet?",
+    "acceptedAnswer": {
+     "@type": "Answer",
+     "text": "No. Video stays on your local network and the license is activated offline."
+    }
+   }
+  ]
+ }
+]
+</script>
+<style>
+  :root{
+    --blue:#1746a2;
+    --green:#1fa855;
+    --ink:#12203a;
+    --muted:#54627a;
+    --line:#e3e8f0;
+    --bg:#f6f8fc;
+    --card:#ffffff;
+    --grad:linear-gradient(135deg,#1746a2 0%,#1fa855 100%);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--ink);
+    background:var(--bg);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;height:auto;display:block}
+  a{color:var(--blue)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+  /* Top bar */
+  .topbar{background:var(--grad);color:#fff}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 20px;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;letter-spacing:.2px}
+  .brand .dot{width:14px;height:14px;border-radius:4px;background:#fff;opacity:.9}
+  .topnav a{color:#fff;text-decoration:none;font-weight:600;font-size:14px;margin-left:18px;opacity:.92}
+  .topnav a:hover{opacity:1;text-decoration:underline}
+
+  /* Hero */
+  .hero{background:var(--grad);color:#fff;padding:44px 0 52px}
+  .hero h1{font-size:34px;line-height:1.2;margin:0 0 14px;font-weight:800}
+  .hero p.lead{font-size:18px;margin:0 0 22px;opacity:.96;max-width:720px}
+  .hero .banner{border-radius:14px;overflow:hidden;box-shadow:0 18px 45px rgba(8,20,50,.35);margin-bottom:26px;border:1px solid rgba(255,255,255,.25)}
+
+  .badges{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 26px}
+  .badge{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.35);color:#fff;font-weight:700;font-size:13px;padding:8px 14px;border-radius:999px;backdrop-filter:blur(2px)}
+
+  .dl-row{display:flex;flex-wrap:wrap;gap:14px}
+  .btn{display:inline-flex;flex-direction:column;text-decoration:none;font-weight:700;border-radius:12px;padding:14px 22px;min-width:210px;transition:transform .12s ease, box-shadow .12s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn small{font-weight:600;font-size:12px;opacity:.85;display:block}
+  .btn-primary{background:#fff;color:var(--blue);box-shadow:0 10px 24px rgba(8,20,50,.28)}
+  .btn-secondary{background:rgba(255,255,255,.12);color:#fff;border:1.5px solid rgba(255,255,255,.6)}
+  .btn-ws{background:#0f2f7a;color:#fff;border:1.5px solid rgba(255,255,255,.35)}
+
+  /* Sections */
+  section{padding:46px 0}
+  section.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  h2{font-size:26px;margin:0 0 8px;font-weight:800;line-height:1.25}
+  h2 .accent{background:var(--grad);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .sub{color:var(--muted);font-size:16px;margin:0 0 26px;max-width:760px}
+  h3{font-size:19px;margin:26px 0 8px;font-weight:700}
+  p{margin:0 0 14px}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+  .card h3{margin-top:0}
+  .card .num{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:9px;background:var(--grad);color:#fff;font-weight:800;margin-bottom:10px}
+  .card .tag{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:#fff;background:var(--green);padding:2px 8px;border-radius:6px;margin-bottom:10px}
+
+  .pill{display:inline-block;background:#eef3fb;color:var(--blue);border:1px solid #d6e2f5;font-weight:700;font-size:12px;padding:3px 10px;border-radius:999px;margin:0 6px 6px 0}
+
+  .kv{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+  .kv div{display:flex;justify-content:space-between;gap:16px;padding:11px 16px;border-bottom:1px solid var(--line);font-size:14px}
+  .kv div:last-child{border-bottom:none}
+  .kv b{color:var(--ink)}
+  .kv span{color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
+  code{background:#eef1f6;border:1px solid var(--line);border-radius:6px;padding:1px 7px;font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;font-size:13.5px;color:#0f2f7a;word-break:break-word}
+  pre{background:#0d1b34;color:#e6edf7;border-radius:10px;padding:14px 16px;overflow-x:auto;font-size:13.5px;margin:10px 0 14px}
+  pre code{background:none;border:none;color:inherit;padding:0}
+
+  /* Table */
+  .table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+  table{border-collapse:collapse;width:100%;min-width:520px;background:#fff;font-size:14.5px}
+  th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--line)}
+  th{background:#f0f4fb;font-weight:700}
+  td.yes{color:var(--green);font-weight:700}
+  td.no{color:#a04040;font-weight:700}
+  tr:last-child td{border-bottom:none}
+
+  .howimg{border-radius:14px;overflow:hidden;border:1px solid var(--line);box-shadow:0 10px 30px rgba(8,20,50,.10);margin-top:8px}
+
+  /* NVR quick add */
+  .nvr{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+  .nvr .card h3{display:flex;align-items:center;gap:8px}
+  .nvr .tag{font-size:11px;font-weight:800;letter-spacing:.5px;text-transform:uppercase;color:#fff;background:var(--blue);padding:2px 8px;border-radius:6px}
+  .nvr ol{margin:6px 0 0;padding-left:20px}
+  .nvr li{margin-bottom:5px;font-size:14px}
+
+  /* FAQ */
+  details{background:#fff;border:1px solid var(--line);border-radius:12px;padding:2px 18px;margin-bottom:12px}
+  details[open]{box-shadow:0 8px 22px rgba(8,20,50,.06)}
+  summary{cursor:pointer;font-weight:700;padding:15px 0;list-style:none;position:relative;padding-right:28px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";position:absolute;right:2px;top:13px;font-size:22px;color:var(--blue);font-weight:700}
+  details[open] summary::after{content:"-"}
+  details p{color:var(--muted);margin:0 0 16px}
+
+  /* CTA band */
+  .cta{background:var(--grad);color:#fff;border-radius:16px;padding:34px;text-align:center;margin-top:8px}
+  .cta h2{color:#fff}
+  .cta .sub{color:rgba(255,255,255,.9);margin:0 auto 22px}
+  .cta .dl-row{justify-content:center}
+
+  /* Footer */
+  footer{background:#0d1b34;color:#c3cde0;padding:38px 0 30px;font-size:14px}
+  footer a{color:#fff;text-decoration:none}
+  footer a:hover{text-decoration:underline}
+  .foot-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;margin-bottom:24px}
+  .foot-grid h4{color:#fff;font-size:14px;margin:0 0 12px;letter-spacing:.4px;text-transform:uppercase}
+  .foot-grid ul{list-style:none;margin:0;padding:0}
+  .foot-grid li{margin-bottom:8px}
+  .foot-bottom{border-top:1px solid #22304f;padding-top:18px;color:#8b98b4;font-size:13px}
+
+  @media (max-width:640px){
+    .hero h1{font-size:27px}
+    .hero p.lead{font-size:16px}
+    .btn{min-width:100%}
+    h2{font-size:22px}
+    .topnav{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span> Screen2ipcam</div>
+    <nav class="topnav">
+      <a href="./">Home</a>
+      <a href="#what">What it is</a>
+      <a href="#check">Checklist</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://screen2ipcam.com/?src=github_pages">Download</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Virtual IP camera software for VMS / NVR</h1>
+    <p class="lead">Your VMS already records cameras. A <strong>virtual IP camera</strong> makes a Windows PC screen look like one more camera, so the same recorder can keep it, search it and play it back. Screen2ipcam does this with standard <strong>ONVIF Profile S</strong> and <strong>RTSP H.264</strong>.</p>
+    <div class="banner"><img src="https://raw.githubusercontent.com/elpasha3000/Screen2ipcam/main/images/hero-og.jpg" alt="A Windows PC screen recorded as a virtual IP camera in an NVR grid next to real cameras" width="1200" height="675"></div>
+    <div class="dl-row">
+      <a class="btn btn-primary" href="https://screen2ipcam.com/blog/virtual-ip-camera-software-for-vms-nvr/?src=github_pages">Read the full guide <small>screen2ipcam.com</small></a>
+      <a class="btn btn-secondary" href="https://screen2ipcam.com/?src=github_pages">Download Screen2ipcam <small>free 14-day trial</small></a>
+    </div>
+  </div>
+</section>
+
+<section id="what">
+  <div class="wrap">
+    <h2>What is a <span class="accent">virtual IP camera?</span></h2>
+    <p class="sub">Software that behaves exactly like a network camera, but the picture comes from a computer instead of a lens.</p>
+    <div class="grid">
+      <div class="card"><h3>Found like a camera</h3><p>ONVIF lets the NVR or VMS discover the PC with its normal search, read its streams and receive its motion events.</p></div>
+      <div class="card"><h3>Streamed like a camera</h3><p>RTSP carries an H.264 main stream for recording and a light sub stream for live view, at <code>rtsp://PC-IP:554/screenlive</code> and <code>/screensub</code>.</p></div>
+      <div class="card"><h3>Recorded like a camera</h3><p>Same timeline, retention, search, user rights and export as every other channel. No capture card, no HDMI encoder.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Where people use it</h2>
+    <div class="grid">
+      <div class="card"><h3>POS and cash registers</h3><p>The register screen next to the counter camera, at the same time code.</p></div>
+      <div class="card"><h3>Control rooms and SCADA</h3><p>A record of exactly what the operator saw.</p></div>
+      <div class="card"><h3>Call centers, banks, clinics</h3><p>Review a session when a customer complains.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="check">
+  <div class="wrap">
+    <h2>What to check before you <span class="accent">choose one</span></h2>
+    <p class="sub">Test any virtual IP camera software on your own recorder against this list. Screen2ipcam covers all seven on Windows 7 SP1 to 11 and Windows Server, 32 and 64-bit.</p>
+    <div class="grid">
+      <div class="card"><span class="tag">1</span><h3>Real ONVIF, not only RTSP</h3><p>The recorder should find it with its own search and add it like any camera.</p></div>
+      <div class="card"><span class="tag">2</span><h3>Main and sub stream</h3><p>Full quality for recording, a light stream for phones and remote view.</p></div>
+      <div class="card"><span class="tag">3</span><h3>Motion events over ONVIF</h3><p>Record only when the screen changes instead of 24/7.</p></div>
+      <div class="card"><span class="tag">4</span><h3>Runs as a Windows service</h3><p>It keeps streaming after a reboot, with nobody logged in.</p></div>
+      <div class="card"><span class="tag">5</span><h3>Light on CPU</h3><p>The PC is a cash register or a workstation first.</p></div>
+      <div class="card"><span class="tag">6</span><h3>Offline</h3><p>No cloud account. Video stays on your network.</p></div>
+      <div class="card"><span class="tag">7</span><h3>Old Windows too</h3><p>Many POS PCs still run Windows 7 or 32-bit Windows.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Step-by-step guides by brand</h2>
+    <div class="kv">
+      <div><b>Hikvision</b><span><a href="https://screen2ipcam.com/blog/add-pc-screen-to-hikvision-nvr/?src=github_pages">Add a PC screen to a Hikvision NVR</a></span></div>
+      <div><b>Dahua</b><span><a href="https://screen2ipcam.com/blog/add-pc-screen-to-dahua-nvr/?src=github_pages">Add a PC screen to a Dahua NVR</a></span></div>
+      <div><b>Nx Witness</b><span><a href="https://screen2ipcam.com/blog/nx-witness-add-pc-screen/?src=github_pages">Add a PC screen to Nx Witness</a></span></div>
+      <div><b>Blue Iris</b><span><a href="https://screen2ipcam.com/blog/blue-iris-add-pc-screen/?src=github_pages">Add a PC screen to Blue Iris</a></span></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2>FAQ</h2>
+    <details open><summary>What is a virtual IP camera?</summary><p>Software that acts like a network camera, but the picture comes from a computer. Screen2ipcam publishes the Windows screen as an ONVIF Profile S camera with an RTSP H.264 stream.</p></details>
+    <details><summary>Which VMS or NVR can record it?</summary><p>Recorders and VMS that support ONVIF cameras, for example Hikvision, Dahua, Nx Witness and Blue Iris. Anything that opens an RTSP stream can use it too.</p></details>
+    <details><summary>Do I need a capture card or HDMI encoder?</summary><p>No. The screen is captured in software and sent over the network like any IP camera.</p></details>
+    <details><summary>Does it need internet?</summary><p>No. Video stays on your local network and the license is activated offline.</p></details>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="wrap">
+    <h2>Try it on your own VMS / NVR</h2>
+    <p class="sub">The full guide, downloads and the free trial are on the official site.</p>
+    <div class="dl-row">
+      <a class="btn btn-primary" href="https://screen2ipcam.com/blog/virtual-ip-camera-software-for-vms-nvr/?src=github_pages">Full guide on screen2ipcam.com</a>
+      <a class="btn btn-secondary" href="https://screen2ipcam.com/?src=github_pages">Download</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-bottom">
+      Screen2ipcam is Windows-only. Video is H.264 and audio is G.711. Windows, ONVIF and RTSP are technologies of their respective owners. &copy; 2026 MagicWeb, <a href="https://screen2ipcam.com/?src=github_pages">screen2ipcam.com</a> &middot; <a href="./">Back to the Screen2ipcam page</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
