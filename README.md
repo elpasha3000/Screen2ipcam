@@ -34,9 +34,9 @@ recorded by any **NVR, DVR or VMS**, with **no capture card** and **no hardware 
 
 <br><br>
 
-<a href="https://screen2ipcam.com/downloads/Screen2ipcam_Setup_x64.exe"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x64-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x64"></a>&nbsp;
-<a href="https://screen2ipcam.com/downloads/Screen2ipcam_Setup_x86.exe"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x86-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x86"></a>&nbsp;
-<a href="https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe"><img src="https://img.shields.io/badge/Download-2.0.5%20for%20Windows%20Server%20x64-0f766e?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam 2.0.5 for Windows Server x64"></a>
+<a href="https://screen2ipcam.com/dl/x64/ghr"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x64-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x64"></a>&nbsp;
+<a href="https://screen2ipcam.com/dl/x86/ghr"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x86-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x86"></a>&nbsp;
+<a href="https://screen2ipcam.com/dl/x64ws/ghr"><img src="https://img.shields.io/badge/Download-2.0.5%20for%20Windows%20Server%20x64-0f766e?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam 2.0.5 for Windows Server x64"></a>
 
 <a href="https://sourceforge.net/projects/screen2ipcam/files/latest/download"><img src="https://a.fsdn.com/con/app/sf-download-button" height="52" alt="Download Screen2ipcam from SourceForge"></a>
 
@@ -156,8 +156,8 @@ Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. It installs 
 
 | | Download | |
 |---|---|---|
-| 💾 | [Screen2ipcam 2.0.5 for Windows Server, **x64**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe) | 64-bit |
-| 🖥️ | [Screen2ipcam 2.0.5 for Windows Server, **x86**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x86.exe) | 32-bit |
+| 💾 | [Screen2ipcam 2.0.5 for Windows Server, **x64**](https://screen2ipcam.com/dl/x64ws/ghr) | 64-bit |
+| 🖥️ | [Screen2ipcam 2.0.5 for Windows Server, **x86**](https://screen2ipcam.com/dl/x86ws/ghr) | 32-bit |
 
 📄 Edition page: **[English](https://screen2ipcam.com/windows-server/?src=github)** · [العربية](https://screen2ipcam.com/windows-server/ar/?src=github) · [Português](https://screen2ipcam.com/windows-server/pt/?src=github) · [Español](https://screen2ipcam.com/windows-server/es/?src=github) · [Deutsch](https://screen2ipcam.com/windows-server/de/?src=github) · [Русский](https://screen2ipcam.com/windows-server/ru/?src=github)
 
@@ -173,10 +173,10 @@ Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. It installs 
 
 | | Download | Notes |
 |---|---|---|
-| 💾 | [Screen2ipcam Setup, **x64**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_x64.exe) | 64-bit, modern PCs |
-| 🖥️ | [Screen2ipcam Setup, **x86**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_x86.exe) | 32-bit, older / embedded / POS |
-| 🖧 | [2.0.5 for Windows Server, **x64**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe) | Servers, POS terminals, shared PCs |
-| 🖧 | [2.0.5 for Windows Server, **x86**](https://screen2ipcam.com/downloads/Screen2ipcam_Setup_2.0.5_WindowsServer_x86.exe) | 32-bit edition |
+| 💾 | [Screen2ipcam Setup, **x64**](https://screen2ipcam.com/dl/x64/ghr) | 64-bit, modern PCs |
+| 🖥️ | [Screen2ipcam Setup, **x86**](https://screen2ipcam.com/dl/x86/ghr) | 32-bit, older / embedded / POS |
+| 🖧 | [2.0.5 for Windows Server, **x64**](https://screen2ipcam.com/dl/x64ws/ghr) | Servers, POS terminals, shared PCs |
+| 🖧 | [2.0.5 for Windows Server, **x86**](https://screen2ipcam.com/dl/x86ws/ghr) | 32-bit edition |
 | 🌐 | **[screen2ipcam.com](https://screen2ipcam.com/?src=github#download)** | Official site, all download options |
 | 📘 | [User guide](https://screen2ipcam.com/guide/?src=github) | Ports, NVR setup, Hikvision and Dahua |
 | 🎬 | [Videos](https://screen2ipcam.com/media/?src=github) | Setup and feature walkthroughs |
