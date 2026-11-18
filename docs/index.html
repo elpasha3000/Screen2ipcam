@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Screen2ipcam 2.0.7: Turn a Windows Screen into an ONVIF / RTSP IP Camera</title>
-<meta name="description" content="Screen2ipcam turns a Windows PC screen, one monitor, part of the screen or a single application into a standard ONVIF Profile S / RTSP H.264 IP camera that any NVR or VMS can find and record. Windows 7 to 11 and Windows Server.">
+<title>Screen2ipcam 2.0.7: Virtual IP Camera Software for Windows (ONVIF / RTSP)</title>
+<meta name="description" content="Virtual IP camera software for Windows. Screen2ipcam turns a PC screen, one monitor, part of the screen or a single application into a standard ONVIF Profile S / RTSP H.264 IP camera that any NVR or VMS can find and record. Windows 7 to 11 and Windows Server.">
 <link rel="canonical" href="https://elpasha3000.github.io/Screen2ipcam/">
 <meta name="theme-color" content="#07121d">
 <link rel="icon" href="assets/img/logo.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Screen2ipcam">
-<meta property="og:title" content="Screen2ipcam 2.0.7: a Windows screen as an ONVIF / RTSP IP camera">
+<meta property="og:title" content="Screen2ipcam 2.0.7: virtual IP camera software for Windows (ONVIF / RTSP)">
 <meta property="og:description" content="Record any PC screen, one monitor, an area or a single app on your NVR or VMS. Native Windows app, ONVIF Profile S, RTSP H.264.">
 <meta property="og:url" content="https://elpasha3000.github.io/Screen2ipcam/">
 <meta property="og:image" content="https://elpasha3000.github.io/Screen2ipcam/assets/img/og.jpg">
@@ -26,13 +26,14 @@
  "@type": "SoftwareApplication",
  "name": "Screen2ipcam",
  "applicationCategory": "MultimediaApplication",
- "applicationSubCategory": "IP Camera / Video Surveillance",
+ "applicationSubCategory": "Virtual ONVIF / RTSP IP camera software",
+ "alternateName": "Screen2ipcam virtual IP camera",
  "operatingSystem": "Windows 7 SP1, 8, 8.1, 10, 11 (32-bit and 64-bit); Windows Server 2016, 2019, 2022, 2025 (Windows Server edition)",
  "softwareVersion": "2.0.7",
  "url": "https://elpasha3000.github.io/Screen2ipcam/",
  "downloadUrl": "https://screen2ipcam.com/?src=github_pages",
  "image": "https://elpasha3000.github.io/Screen2ipcam/assets/img/og.jpg",
- "description": "Native Windows application that turns a PC screen, part of a screen or a single application into a standard ONVIF Profile S / RTSP H.264 IP camera that NVR and VMS software discover and record.",
+ "description": "Virtual IP camera software for Windows that turns a PC screen, part of a screen or a single application into a standard ONVIF Profile S / RTSP H.264 IP camera that NVR and VMS software discover and record.",
  "featureList": [
   "Choose the source: a full display, part of the screen, or a specific application (2.0.7)",
   "ONVIF Profile S device with WS-Discovery auto-search",
@@ -57,6 +58,14 @@
  "@context": "https://schema.org",
  "@type": "FAQPage",
  "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "What is a virtual IP camera?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "A virtual IP camera is software that behaves exactly like a network camera, without the camera hardware. Screen2ipcam is virtual IP camera software for Windows: it turns a PC screen into a camera that speaks ONVIF Profile S and RTSP H.264, so any NVR or VMS can find it, show it live and record it."
+   }
+  },
   {
    "@type": "Question",
    "name": "Can a Windows PC really act as an ONVIF IP camera?",
@@ -222,7 +231,8 @@ section{padding:84px 0;scroll-margin-top:64px}
 .hero-grid{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr);gap:52px;align-items:center}
 .pill-new{display:inline-flex;align-items:center;gap:10px;background:rgba(61,220,106,.12);border:1px solid rgba(61,220,106,.35);color:#bff5cf;border-radius:999px;padding:6px 14px 6px 6px;font-size:13.5px;font-weight:500;text-decoration:none}
 .pill-new b{background:var(--green);color:#05210f;border-radius:999px;padding:2px 10px;font-size:12px;font-weight:700;letter-spacing:.02em}
-.hero h1{font-size:clamp(34px,4.6vw,56px);color:#fff;margin:20px 0 0;font-weight:700}
+.tagline{margin:18px 0 0;font-family:var(--mono);font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#7fd8ff}
+.hero h1{font-size:clamp(34px,4.6vw,56px);color:#fff;margin:10px 0 0;font-weight:700}
 .hero h1 .g{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero .lead{color:#a9bccd;font-size:18.5px}
 .std{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
@@ -469,8 +479,9 @@ footer a:hover{color:#fff;text-decoration:underline}
   <div class="wrap hero-grid">
     <div>
       <a class="pill-new" href="#new"><b>NEW 2.0.7</b> Choose exactly what the camera shows</a>
+      <p class="tagline">Virtual IP camera software for VMS / NVR</p>
       <h1>Turn any Windows screen into an <span class="g">ONVIF / RTSP IP camera</span></h1>
-      <p class="lead">Screen2ipcam publishes a PC screen as a standard network camera. Your NVR or VMS finds it, shows it live and records it next to your real cameras: cashier and POS screens, dashboards, machines and office PCs.</p>
+      <p class="lead">Screen2ipcam is a virtual IP camera for Windows. It publishes a PC screen as a standard network camera. Your NVR or VMS finds it, shows it live and records it next to your real cameras: cashier and POS screens, dashboards, machines and office PCs.</p>
       <div class="std" aria-label="Standards">
         <span class="w"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 4.2 10 3v8.4H2zm9-1.3L22 1.4v10H11zM2 12.6h8V21l-8-1.1zm9 0h11v10l-11-1.5z"/></svg> Windows <small>7 to 11 · Server</small></span>
         <span class="o"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3.4" fill="currentColor"/><path d="M12 2.8v3.4M12 17.8v3.4M2.8 12h3.4M17.8 12h3.4" stroke="currentColor" stroke-width="2"/></svg> ONVIF <small>Profile S</small></span>
@@ -624,7 +635,7 @@ footer a:hover{color:#fff;text-decoration:underline}
   <div class="wrap">
     <div class="sec-head">
       <span class="eyebrow">Compare</span>
-      <h2 style="margin-top:12px">Screen recorder or IP camera?</h2>
+      <h2 style="margin-top:12px">Screen recorder or virtual IP camera?</h2>
       <p class="lead">A screen recorder saves files on the same PC. Screen2ipcam makes the screen one more camera in the system you already trust.</p>
     </div>
     <div class="cmp"><table>
@@ -670,7 +681,8 @@ footer a:hover{color:#fff;text-decoration:underline}
       <h2 style="margin-top:12px">Frequently asked questions</h2>
     </div>
     <div class="faq-list">
-<details open><summary>Can a Windows PC really act as an ONVIF IP camera?</summary><p>Yes. Screen2ipcam publishes your Windows screen as a standard ONVIF Profile S device with RTSP H.264 streams. To an NVR or VMS it looks like an ordinary network camera, so it is found by ONVIF auto-search (WS-Discovery) and recorded exactly like a hardware camera.</p></details>
+<details open><summary>What is a virtual IP camera?</summary><p>A virtual IP camera is software that behaves exactly like a network camera, without the camera hardware. Screen2ipcam is virtual IP camera software for Windows: it turns a PC screen into a camera that speaks ONVIF Profile S and RTSP H.264, so any NVR or VMS can find it, show it live and record it.</p></details>
+<details><summary>Can a Windows PC really act as an ONVIF IP camera?</summary><p>Yes. Screen2ipcam publishes your Windows screen as a standard ONVIF Profile S device with RTSP H.264 streams. To an NVR or VMS it looks like an ordinary network camera, so it is found by ONVIF auto-search (WS-Discovery) and recorded exactly like a hardware camera.</p></details>
 <details><summary>Can I stream only one monitor, part of the screen or a single application?</summary><p>Yes. Since version 2.0.7 the Source tab lets you choose what the camera shows: a full display (pick any monitor), part of a screen (draw the area with the mouse or type its position and size), or a specific application that the camera follows on screen. The default is the whole main display.</p></details>
 <details><summary>Which NVR and VMS software works with Screen2ipcam?</summary><p>Any recorder that supports ONVIF Profile S or plain RTSP H.264. This includes Hikvision, Dahua, Uniview and XMEye recorders, Nx Witness, Blue Iris, Milestone, Synology Surveillance Station, Agent DVR / iSpy, Frigate, Shinobi and most other VMS platforms. VLC can also open the RTSP stream directly.</p></details>
 <details><summary>Can the recorder record only when the screen changes?</summary><p>Yes. Since version 2.0.5 Screen2ipcam can send motion events over standard ONVIF, so the recorder records and alerts only when the screen changes, which saves disk space. It is optional and off by default. A Send test event button lets you confirm that the recorder reacts without touching the screen.</p></details>
