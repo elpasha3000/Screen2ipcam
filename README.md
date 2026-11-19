@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="images/logo.png" width="110" alt="Screen2ipcam logo">
+<a href="https://elpasha3000.github.io/Screen2ipcam/"><img src="images/banner-207.webp" width="100%" alt="Screen2ipcam 2.0.7, virtual IP camera software for Windows: stream the whole display, part of the screen or one application to any NVR, DVR or VMS over ONVIF and RTSP"></a>
 
-# Screen2ipcam
+# Screen2ipcam 2.0.7
 
-### Your Windows screen. Your IP camera.
+### Virtual IP camera software for Windows
 
-Turn any Windows PC **screen** into a standard **ONVIF / RTSP IP camera**,<br>
+Turn a Windows PC **screen**, **part of it**, or **one application** into a standard **ONVIF / RTSP IP camera**,<br>
 recorded by any **NVR, DVR or VMS**, with **no capture card** and **no hardware encoder**.
 
 <br>
@@ -15,34 +15,26 @@ recorded by any **NVR, DVR or VMS**, with **no capture card** and **no hardware 
 <img src="https://img.shields.io/badge/ONVIF-Profile%20S-16a34a?style=for-the-badge" alt="ONVIF Profile S">&nbsp;
 <img src="https://img.shields.io/badge/RTSP-H.264%20Main%20%2B%20Sub-1b4fd6?style=for-the-badge" alt="RTSP H.264 main and sub streams">
 
-<img src="https://img.shields.io/badge/version-2.0.5-16a34a" alt="Current version 2.0.5">&nbsp;
-<img src="https://img.shields.io/badge/New-Motion%20recording-f59e0b" alt="New in 2.0.5: motion recording">&nbsp;
-<img src="https://img.shields.io/badge/New%20edition-2.0.5%20for%20Windows%20Server-0f766e" alt="New edition: 2.0.5 for Windows Server">&nbsp;
+<img src="https://img.shields.io/badge/version-2.0.7-16a34a" alt="Version 2.0.7">&nbsp;
+<img src="https://img.shields.io/badge/New-Display%20·%20Area%20·%20Application-f59e0b" alt="New in 2.0.7: choose the display, part of the screen or one application">&nbsp;
+<img src="https://img.shields.io/badge/Motion%20recording-since%202.0.5-0f766e" alt="Motion recording since 2.0.5">&nbsp;
 <img src="https://img.shields.io/badge/Free%20trial-14%20days%20%C2%B7%20full%20features-16a34a" alt="Free 14-day trial">&nbsp;
-<a href="https://sourceforge.net/projects/screen2ipcam/files/latest/download"><img src="https://img.shields.io/sourceforge/dt/screen2ipcam?logo=sourceforge&logoColor=white&label=SourceForge&color=FF6600" alt="Download on SourceForge"></a>&nbsp;
+<img src="https://img.shields.io/badge/Nx%20Integration%20Directory-listed-7c3aed" alt="Listed in the official Nx Integration Directory">&nbsp;
+<a href="https://sourceforge.net/projects/screen2ipcam/"><img src="https://img.shields.io/sourceforge/dt/screen2ipcam?logo=sourceforge&logoColor=white&label=SourceForge&color=FF6600" alt="Screen2ipcam on SourceForge"></a>&nbsp;
 <a href="https://www.softpedia.com/get/Internet/Streaming/Screen2ipcam.shtml"><img src="https://img.shields.io/badge/Softpedia-★%205.0%2F5%20%C2%B7%20100%25%20CLEAN-f59e0b" alt="Softpedia 5.0/5, Certified 100% Clean"></a>
 
 <br>
 
-[**⬇️ Download**](#download) &nbsp;·&nbsp; [**🆕 What's new**](#whats-new) &nbsp;·&nbsp; [**🖧 Windows Server edition**](#windows-server) &nbsp;·&nbsp; [**✨ Features**](#features) &nbsp;·&nbsp; [**🔌 How it works**](#how) &nbsp;·&nbsp; [**🖼️ Screenshots**](#shots) &nbsp;·&nbsp; [**🔑 License**](#license) &nbsp;·&nbsp; [**⭐ Review**](#review) &nbsp;·&nbsp; [**💬 Comments**](#comments)
+<a href="https://screen2ipcam.com/dl207/x64/ghr"><img src="https://img.shields.io/badge/⬇%20Download%202.0.7-64--bit%20·%20most%20PCs-16a34a?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam 2.0.7, 64-bit"></a>&nbsp;
+<a href="https://screen2ipcam.com/dl207/x86/ghr"><img src="https://img.shields.io/badge/⬇%20Download%202.0.7-32--bit-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam 2.0.7, 32-bit"></a>
 
-<br>
-
-<img src="images/hero.png" alt="A Windows PC screen shown live in an NVR grid, recorded next to real CCTV cameras" width="100%">
-
-<i>A Windows PC screen, live in your NVR, right next to your real cameras.</i>
+<sub>Free 14-day trial with every feature unlocked · Installs over your current version and keeps your license and settings</sub>
 
 <br><br>
 
-<a href="https://screen2ipcam.com/dl/x64/ghr"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x64-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x64"></a>&nbsp;
-<a href="https://screen2ipcam.com/dl/x86/ghr"><img src="https://img.shields.io/badge/Download-Screen2ipcam%20Setup%20x86-1b4fd6?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam Setup x86"></a>&nbsp;
-<a href="https://screen2ipcam.com/dl/x64ws/ghr"><img src="https://img.shields.io/badge/Download-2.0.5%20for%20Windows%20Server%20x64-0f766e?style=for-the-badge&logo=windows&logoColor=white" alt="Download Screen2ipcam 2.0.5 for Windows Server x64"></a>
+[**🆕 New in 2.0.7**](#whats-new) &nbsp;·&nbsp; [**🎬 Videos**](#videos) &nbsp;·&nbsp; [**🤝 Works with**](#works-with) &nbsp;·&nbsp; [**🎯 Motion recording**](#motion) &nbsp;·&nbsp; [**🖧 Windows Server**](#windows-server) &nbsp;·&nbsp; [**⬇️ Download**](#download) &nbsp;·&nbsp; [**📜 Versions**](#versions) &nbsp;·&nbsp; [**❓ FAQ**](#faq)
 
-<a href="https://sourceforge.net/projects/screen2ipcam/files/latest/download"><img src="https://a.fsdn.com/con/app/sf-download-button" height="52" alt="Download Screen2ipcam from SourceForge"></a>
-
-🌐 Official site: **[screen2ipcam.com](https://screen2ipcam.com/?src=github)**
-
-🌍 In your language: [English](https://screen2ipcam.com/) · [العربية](https://screen2ipcam.com/ar/) · [Português](https://screen2ipcam.com/pt/) · [Español](https://screen2ipcam.com/es/) · [Deutsch](https://screen2ipcam.com/de/) · [Русский](https://screen2ipcam.com/ru/) · [日本語](https://screen2ipcam.com/ja/) · [简体中文](https://screen2ipcam.com/zh/)
+🌐 **[screen2ipcam.com](https://screen2ipcam.com/?src=github)** &nbsp;·&nbsp; 📄 **[Product page](https://elpasha3000.github.io/Screen2ipcam/)** &nbsp;·&nbsp; 🌍 [English](https://screen2ipcam.com/?src=github) · [العربية](https://screen2ipcam.com/ar/?src=github) · [Português](https://screen2ipcam.com/pt/?src=github) · [Español](https://screen2ipcam.com/es/?src=github) · [Français](https://screen2ipcam.com/fr/?src=github) · [Deutsch](https://screen2ipcam.com/de/?src=github) · [Русский](https://screen2ipcam.com/ru/?src=github) · [日本語](https://screen2ipcam.com/ja/?src=github) · [简体中文](https://screen2ipcam.com/zh/?src=github)
 
 </div>
 
@@ -50,71 +42,127 @@ recorded by any **NVR, DVR or VMS**, with **no capture card** and **no hardware 
 
 ## 🎯 What is Screen2ipcam?
 
-Screen2ipcam runs on a Windows PC and publishes its **screen** as a standard **ONVIF Profile S** camera with an **H.264 RTSP** stream (main + sub). Your NVR, DVR or VMS (**Hikvision, Dahua, Uniview, XMEye, Blue Iris, Milestone, Genetec, Nx Witness** and others) discovers it like any other IP camera and records it. No HDMI encoder, no capture hardware, no extra PC.
+Screen2ipcam is **virtual IP camera software**. It runs on a Windows PC and publishes the screen as a standard **ONVIF Profile S** camera with an **H.264 RTSP** stream (main + sub). Your NVR, DVR or VMS discovers it like any other IP camera and records it next to your real cameras. No HDMI encoder, no capture card, no extra PC.
 
-### 🤝 Works with
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/HIKVISION-tested%20✓-E60012?style=for-the-badge" alt="Hikvision, tested">&nbsp;
-<img src="https://img.shields.io/badge/DAHUA-tested%20✓-D7000F?style=for-the-badge" alt="Dahua, tested">&nbsp;
-<img src="https://img.shields.io/badge/UNIVIEW-tested%20✓-0ea5e9?style=for-the-badge" alt="Uniview, tested">&nbsp;
-<img src="https://img.shields.io/badge/XMEye-tested%20✓-7c2d12?style=for-the-badge" alt="XMEye, tested">&nbsp;
-<img src="https://img.shields.io/badge/Blue%20Iris-tested%20✓-1e3a8a?style=for-the-badge" alt="Blue Iris, tested">&nbsp;
-<img src="https://img.shields.io/badge/Agent%20DVR-tested%20✓-0f766e?style=for-the-badge" alt="Agent DVR, tested">
-
-<img src="https://img.shields.io/badge/Milestone%20XProtect-ONVIF-5b21b6?style=flat-square" alt="Milestone XProtect, via ONVIF">&nbsp;
-<img src="https://img.shields.io/badge/Genetec-ONVIF-374151?style=flat-square" alt="Genetec, via ONVIF">&nbsp;
-<img src="https://img.shields.io/badge/Nx%20Witness-ONVIF%20%2F%20RTSP-7c3aed?style=flat-square" alt="Nx Witness, via ONVIF / RTSP">&nbsp;
-<img src="https://img.shields.io/badge/Synology%20%2F%20QNAP-ONVIF-111827?style=flat-square" alt="Synology / QNAP Surveillance, via ONVIF">&nbsp;
-<img src="https://img.shields.io/badge/VLC-RTSP-FF8800?style=flat-square&logo=vlcmediaplayer&logoColor=white" alt="VLC, via RTSP">&nbsp;
-<img src="https://img.shields.io/badge/tinyCam%20%2F%20IP%20Cam%20Viewer-RTSP-334155?style=flat-square" alt="tinyCam and IP Cam Viewer, via RTSP">
-
-<sub>...and any other NVR / DVR / VMS / player that speaks standard <b>ONVIF</b> or <b>RTSP</b>.</sub>
-
-</div>
-
-Anywhere you'd like a screen visible inside your existing surveillance system:
+```
+PC screen  →  H.264  →  ONVIF / RTSP  →  your NVR, DVR or VMS
+```
 
 | | | |
 |---|---|---|
-| 🧾 **POS & cashier systems** | 🏫 **Schools & training labs** | 🏭 **Factories: SCADA / HMI** |
-| 🚚 **Warehouses & logistics** | 🏥 **Healthcare & lab equipment** | 🎓 **Examination centers** |
-| 📊 **Dashboards & control rooms** | 🖥️ **Remote branches & kiosks** | 📺 **Digital signage** |
+| 🧾 **POS & cashier screens** | 🏭 **Factories: SCADA / HMI** | 📊 **Dashboards & control rooms** |
+| 💊 **Pharmacies & clinics** | 🚚 **Warehouses & logistics** | 🎓 **Schools & exam centers** |
+| 🏪 **Shops & branches** | 🖥️ **Kiosks & front desks** | 📺 **Digital signage** |
 
 > Used responsibly and lawfully. See the License Agreement. The operator is solely responsible for obtaining any required consents.
 
 <br>
 
 <a id="whats-new"></a>
-## 🆕 What's new in 2.0.5: motion recording
-
-A PC screen sits still for most of the day. Screen2ipcam 2.0.5 can tell the recorder **the moment the screen changes**, so the recorder records and alerts only then.
-
-**🎯 Motion events over standard ONVIF**<br>
-The recorder records only when the screen changes, the same way it handles motion from a real camera. The playback timeline fills only where something happened, the disk lasts much longer, and searching gets faster because you jump straight to the blocks on the timeline. Optional, and **off by default**.
-
-**🖱️ Mouse pointer in the stream and in snapshots**<br>
-Windows does not include the pointer when a program captures the screen. 2.0.5 can draw it in, so the recording shows exactly where the operator clicked. Optional, off by default.
-
-**🔊 Sound and on-screen extras**<br>
-The PC's own audio travels inside the same stream using standard **G.711**, and the camera name and the date and time can be drawn on the picture, with your choice of corner, colour, size and opacity.
-
-**🧪 A test button**<br>
-**Send test event** sends one motion event to the recorder and then goes idle. You can confirm the recorder reacts before you leave the site, without touching the screen.
-
-**🔑 Easier license activation**<br>
-The license text is accepted however you paste it, even on a single line, with clearer messages.
-
-**🌐 VPN and multiple networks, built in**<br>
-Choose exactly which address the recorder should see, run a **network check**, and copy the RTSP link in one click. VPN and virtual adapters are detected and skipped automatically, so the camera announces the address that actually works.
-
-2.0.5 installs over your current version and keeps your license and settings.
-
-📄 How motion recording works: **[English](https://screen2ipcam.com/motion/?src=github)** · [العربية](https://screen2ipcam.com/motion/ar/?src=github) · [Português](https://screen2ipcam.com/motion/pt/?src=github) &nbsp;·&nbsp; 📝 **[Full release notes](https://screen2ipcam.com/updates.html?src=github)**
+## 🆕 New in 2.0.7: choose exactly what the camera shows
 
 <div align="center">
-<img src="images/mk-nvr-motion.webp" width="92%" alt="An NVR playback timeline for a PC screen channel: motion events over ONVIF start the recording the moment the screen changes, the mouse pointer is visible, and idle hours use no storage">
+<img src="images/modes-207.webp" width="100%" alt="Screen2ipcam 2.0.7 capture sources: the whole display, part of the screen, or one application window">
+</div>
+
+<br>
+
+| | |
+|---|---|
+| 🖥️ **Whole display** | More than one monitor? Pick the display you want. **Identify displays** shows a big number on each screen. |
+| ✂️ **Part of the screen** | Draw the area with the mouse, then press **Enter** or double-click inside it. You can also type the position and size, in the program or in the web panel. |
+| 🪟 **One application** | The camera follows the program window wherever it moves. If the program is closed, a waiting screen appears and the stream comes back by itself. |
+| 👁️ **Live preview** | Shows exactly what the recorder will see. |
+| 📈 **Steadier timelines** | Steadier recording timelines on professional video management systems. |
+| 💡 **Help tips** | Hover over an option for a short explanation. The camera screens show the program version. |
+
+<div align="center">
+<img src="docs/assets/img/upd-207-area.webp" width="88%" alt="Part of the screen: only the map area of the PC screen is streamed and appears as a camera on the recorder">
+<br><sub><b>Part of the screen:</b> only the selected area, here the map, appears on the recorder</sub>
+<br><br>
+
+| | |
+|:--:|:--:|
+| <img src="docs/assets/img/upd-207-monitors.webp" alt="Two monitors: only the dashboard screen is recorded"> | <img src="docs/assets/img/upd-207-app.webp" alt="Only the cash register program goes to the recorder"> |
+| Two monitors: only the dashboard screen is recorded | One application: only the cash register program goes to the recorder |
+
+</div>
+
+Everything from **2.0.5** is still here: motion recording, the mouse pointer, sound and the on-screen extras. 2.0.7 installs over your current version and keeps your license and settings.
+
+<details>
+<summary><b>📸 The new Source tab in the app</b> <i>(click to expand)</i></summary>
+<br>
+
+| | | |
+|:--:|:--:|:--:|
+| <img src="docs/assets/img/upd-207-src-display-en.webp" alt="Source tab: choose the display"> | <img src="docs/assets/img/upd-207-src-area-en.webp" alt="Source tab: part of the screen"> | <img src="docs/assets/img/upd-207-src-app-en.webp" alt="Source tab: one application"> |
+| **Display** | **Part of the screen** | **Application** |
+
+</details>
+
+📝 **[Full release notes](https://screen2ipcam.com/updates.html?src=github)**
+
+<br>
+
+<a id="videos"></a>
+## 🎬 See it working
+
+<div align="center">
+
+<a href="https://www.youtube.com/watch?v=ZVe3uEKP43I"><img src="images/yt-ZVe3uEKP43I.webp" width="88%" alt="Video: full guide, record a PC or POS screen on any NVR over ONVIF / RTSP (10:57)"></a>
+<br><sub><b>Full guide:</b> record a PC or POS screen on any NVR over ONVIF / RTSP</sub>
+
+<br><br>
+
+| | | |
+|:--:|:--:|:--:|
+| <a href="https://www.youtube.com/watch?v=yrkmlVbfoj8"><img src="images/yt-yrkmlVbfoj8.webp" alt="Video: Camera 5 is not a camera"></a> | <a href="https://www.youtube.com/watch?v=haeQu4SZTnQ"><img src="images/yt-haeQu4SZTnQ.webp" alt="Video: record any PC screen on your NVR"></a> | <a href="https://www.youtube.com/watch?v=x8wikYQeV7c"><img src="images/yt-x8wikYQeV7c.webp" alt="Video: turn your PC into an ONVIF IP camera in one minute"></a> |
+| Camera 5 is not a camera: a cashier screen on an NVR | Record any PC screen on your NVR | Your PC as an ONVIF IP camera in one minute |
+| <a href="https://www.youtube.com/watch?v=00qRO1LfY8o"><img src="images/yt-00qRO1LfY8o.webp" alt="Video: Screen2ipcam with Nx Witness"></a> | <a href="https://www.youtube.com/watch?v=2Jz4zVoEs30"><img src="images/yt-2Jz4zVoEs30.webp" alt="Video: show a PC screen on any smart TV"></a> | <a href="https://www.youtube.com/watch?v=dImaMbHljXc"><img src="images/yt-dImaMbHljXc.webp" alt="Video: watch a PC screen live in VLC on your phone"></a> |
+| Screen2ipcam with Nx Witness | A PC screen on any smart TV, no cables | Live in VLC on your phone over RTSP |
+
+🎞️ **[All videos](https://screen2ipcam.com/media/?src=github)**
+
+</div>
+
+<br>
+
+<a id="works-with"></a>
+## 🤝 Works with your recorder
+
+<div align="center">
+<img src="images/works-with.webp" width="100%" alt="Works with Hikvision, Dahua, Nx Witness, Blue Iris, XMEye, Synology, Intelbras, VLC and any ONVIF recorder">
+</div>
+
+<br>
+
+Tested with **Hikvision**, **Dahua**, **Uniview**, **XMEye**, **Blue Iris** and **Agent DVR**. Listed in the official **Nx Integration Directory**, verified on a live **Pelco VideoXpert** system, and works with **Salient CompleteView**, **Milestone XProtect**, **Synology / QNAP Surveillance Station**, **Intelbras**, **Frigate** and any player such as **VLC**. In short: anything that speaks standard **ONVIF** or **RTSP**.
+
+📘 Step by step guides: [Hikvision](https://screen2ipcam.com/integrations/hikvision/?src=github) · [Dahua](https://screen2ipcam.com/integrations/dahua/?src=github) · [Blue Iris](https://screen2ipcam.com/integrations/blue-iris/?src=github) · [Intelbras](https://screen2ipcam.com/integrations/intelbras/?src=github) · [Pelco VideoXpert](https://screen2ipcam.com/integrations/pelco-videoxpert/?src=github) · [Salient CompleteView](https://screen2ipcam.com/integrations/salient-completeview/?src=github) · [All integrations](https://screen2ipcam.com/integrations/?src=github)
+
+<div align="center">
+<br>
+<img src="images/pos-nvr.webp" width="86%" alt="A cashier POS screen recorded as one channel inside an NVR, next to the store cameras">
+<br><sub>A cashier screen as one more channel in the NVR, right next to the store cameras</sub>
+</div>
+
+<br>
+
+<a id="motion"></a>
+## 🎯 Motion recording (since 2.0.5)
+
+A PC screen sits still for most of the day. Since **2.0.5**, Screen2ipcam can tell the recorder **the moment the screen changes**, so the recorder records and alerts only then. 2.0.7 keeps it.
+
+| | |
+|---|---|
+| 🎯 **Motion events over standard ONVIF** | The recorder records only when the screen changes, the same way it handles motion from a real camera. The timeline fills only where something happened, the disk lasts much longer, and searching is faster. Optional, **off by default**. |
+| 🧪 **Send test event** | Sends one motion event to the recorder, so you can confirm it reacts before you leave the site, without touching the screen. |
+| 🖱️ **Mouse pointer** | Windows does not include the pointer when a program captures the screen. Screen2ipcam can draw it in, so the recording shows where the operator clicked. Optional. |
+| 🔊 **Sound and on-screen extras** | The PC's own audio inside the same stream (**G.711**), plus the camera name and the date and time on the picture, with your choice of corner, colour, size and opacity. |
+
+<div align="center">
+<img src="images/mk-nvr-motion.webp" width="88%" alt="An NVR playback timeline for a PC screen channel: motion events over ONVIF start the recording the moment the screen changes">
 <br><sub>Illustration: the recorder stores only the moments when the screen changed</sub>
 </div>
 
@@ -127,44 +175,23 @@ Choose exactly which address the recorder should see, run a **network check**, a
 3. If the camera was added before you switched events on, delete the channel and add it again once, so the recorder reads the new capabilities.
 4. Back in the Events tab press **Send test event**. The motion or recording icon should appear on the recorder within a second.
 
+📄 How motion recording works: **[English](https://screen2ipcam.com/motion/?src=github)** · [العربية](https://screen2ipcam.com/motion/ar/?src=github) · [Português](https://screen2ipcam.com/motion/pt/?src=github)
+
 <br>
 
 <a id="windows-server"></a>
-## 🖧 New edition: 2.0.5 for Windows Server
+## 🖧 2.0.5 for Windows Server
 
-An edition for **servers, POS terminals and shared PCs**: machines that run around the clock and are not always logged in. The same program, built for a different kind of machine.
+An edition for **servers, POS terminals and shared PCs**: machines that run around the clock and are not always logged in.
 
-**🔒 Streams without a logged-in user**<br>
-The service runs the camera on the **logon screen itself**. After a reboot or a log off, the recorder still sees the screen and never shows Video Loss.
+| | |
+|---|---|
+| 🔒 **Streams without a logged-in user** | The service runs the camera on the logon screen itself. After a reboot or a log off, the recorder still sees the screen and never shows Video Loss. |
+| 📌 **Fixed ports** | RTSP **554**, ONVIF **18000**, web panel **13030**. Set the recorder and the firewall once. |
+| 🚀 **Silent install on many machines** | Save the settings of one PC to `Screen2ipcam-settings.txt`, keep it next to the installer, and run it with `/SILENT /SUPPRESSMSGBOXES` from any deployment tool. |
+| 🖥️ **Remote Desktop aware** | When a technician connects over RDP, the camera follows the active session, and goes back to the operator's screen by itself afterwards. |
 
-**📌 Fixed ports**<br>
-RTSP **554**, ONVIF **18000**, web panel **13030**. They never change, so the recorder and the firewall rules are set once. The web panel stays reachable from any PC on the network, or over a VPN, even while the machine sits on the logon screen.
-
-**🚀 Silent install on many machines**<br>
-Install on one PC, set it up the way you like, then in the License tab click **Save settings to a file** and name it `Screen2ipcam-settings.txt`. Put that file next to the installer and run, from any deployment tool or script:
-
-```
-Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe /SILENT /SUPPRESSMSGBOXES
-```
-
-Each machine comes up ready: resolution, ports, sound, mouse pointer.
-
-**🖥️ Remote Desktop aware**<br>
-When a technician connects over RDP, the camera follows the active session, and goes back to the operator's screen by itself when they disconnect.
-
-Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. It installs over your current version and keeps your license and settings. Same lifetime license as the standard edition, one per machine.
-
-| | Download | |
-|---|---|---|
-| 💾 | [Screen2ipcam 2.0.5 for Windows Server, **x64**](https://screen2ipcam.com/dl/x64ws/ghr) | 64-bit |
-| 🖥️ | [Screen2ipcam 2.0.5 for Windows Server, **x86**](https://screen2ipcam.com/dl/x86ws/ghr) | 32-bit |
-
-📄 Edition page: **[English](https://screen2ipcam.com/windows-server/?src=github)** · [العربية](https://screen2ipcam.com/windows-server/ar/?src=github) · [Português](https://screen2ipcam.com/windows-server/pt/?src=github) · [Español](https://screen2ipcam.com/windows-server/es/?src=github) · [Deutsch](https://screen2ipcam.com/windows-server/de/?src=github) · [Русский](https://screen2ipcam.com/windows-server/ru/?src=github)
-
-<div align="center">
-<img src="images/pos-nvr.webp" width="80%" alt="A cashier POS screen recorded as one channel inside an NVR, next to the store cameras">
-<br><sub>Illustration: a cashier screen as one more channel in the NVR</sub>
-</div>
+Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. Same lifetime license as the standard edition, one per machine. 📄 [Edition page](https://screen2ipcam.com/windows-server/?src=github)
 
 <br>
 
@@ -173,14 +200,12 @@ Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. It installs 
 
 | | Download | Notes |
 |---|---|---|
-| 💾 | [Screen2ipcam Setup, **x64**](https://screen2ipcam.com/dl/x64/ghr) | 64-bit, modern PCs |
-| 🖥️ | [Screen2ipcam Setup, **x86**](https://screen2ipcam.com/dl/x86/ghr) | 32-bit, older / embedded / POS |
-| 🖧 | [2.0.5 for Windows Server, **x64**](https://screen2ipcam.com/dl/x64ws/ghr) | Servers, POS terminals, shared PCs |
-| 🖧 | [2.0.5 for Windows Server, **x86**](https://screen2ipcam.com/dl/x86ws/ghr) | 32-bit edition |
-| 🌐 | **[screen2ipcam.com](https://screen2ipcam.com/?src=github#download)** | Official site, all download options |
+| 💾 | **[Screen2ipcam 2.0.7, 64-bit](https://screen2ipcam.com/dl207/x64/ghr)** | Latest version, most PCs |
+| 🖥️ | **[Screen2ipcam 2.0.7, 32-bit](https://screen2ipcam.com/dl207/x86/ghr)** | Latest version, older / embedded / POS |
+| 🖧 | [2.0.5 for Windows Server, 64-bit](https://screen2ipcam.com/dl/x64ws/ghr) · [32-bit](https://screen2ipcam.com/dl/x86ws/ghr) | Servers, POS terminals, shared PCs |
+| 🕘 | [Previous version 2.0.5, 64-bit](https://screen2ipcam.com/dl/x64new/ghr) · [32-bit](https://screen2ipcam.com/dl/x86new/ghr) | The version that introduced motion recording |
+| 📦 | [SourceForge mirror](https://sourceforge.net/projects/screen2ipcam/files/) | Earlier builds and checksums |
 | 📘 | [User guide](https://screen2ipcam.com/guide/?src=github) | Ports, NVR setup, Hikvision and Dahua |
-| 🎬 | [Videos](https://screen2ipcam.com/media/?src=github) | Setup and feature walkthroughs |
-| 📝 | [Release notes](https://screen2ipcam.com/updates.html?src=github) | What changed in each version |
 
 Windows 7 SP1 to Windows 11, 32-bit and 64-bit. The trial is **14 days, fully functional**. A lifetime license unlocks the full version for one PC: **no watermark, no time limit**.
 
@@ -192,41 +217,30 @@ Windows 7 SP1 to Windows 11, 32-bit and 64-bit. The trial is **14 days, fully fu
 | | |
 |---|---|
 | 📡 **ONVIF Profile S** | Auto-discovered by NVRs (WS-Discovery), or add by IP |
-| 🎬 **RTSP H.264** | **Main + Sub** streams, perfect for NVR grid views |
-| 🖥️ **Live screen capture** | The full primary screen, exactly as the operator sees it |
+| 🎬 **RTSP H.264** | **Main + Sub** streams: `rtsp://PC-IP:554/screenlive` and `/screensub` |
+| 🖥️ **Capture source** | Whole display, part of the screen, or one application window *(new in 2.0.7)* |
 | 🎯 **Motion events (ONVIF)** | The recorder records only when the screen changes. Optional, off by default |
 | 🖱️ **Mouse pointer** | Optionally drawn into the stream and the snapshots |
-| 🧪 **Test event button** | Sends one motion event so you can confirm the recorder reacts |
 | 📸 **JPEG snapshot** | Standard `GetSnapshotUri` support |
 | 🔊 **Audio (G.711)** | Streams the PC's own sound with the video, recorded by the NVR |
-| 🏷️ **On-screen extras** | Camera name and date/time drawn on the picture, your choice of corner |
+| 🏷️ **On-screen extras** | Camera name and date/time on the picture, your choice of corner |
 | 👁️ **Connected devices** | See who is watching right now, from where, and for how long |
-| 🌐 **VPN & address control** | Pick the address the recorder sees · built-in network check · VPN-aware |
-| 🪶 **Featherweight** | ~0% CPU idle · ~2% while streaming · ~60 MB RAM |
-| ⚙️ **Native C++** | Static runtime, no .NET, no redistributables |
+| 🌐 **VPN & address control** | Pick the address the recorder sees, with a built-in network check |
+| 🪶 **Light on the PC** | About 2% CPU while streaming, no .NET, native C++ |
 | 🪟 **Windows 7 SP1 → 11** | 32-bit & 64-bit, IoT / Embedded / POSReady too |
-| 🖧 **Windows Server edition** | Streams on the logon screen, fixed ports, silent install with a settings file |
 | 🛠️ **Always-on** | Installs as a Windows Service, or runs as a tray app |
-| 🎛️ **3 ways to configure** | Native GUI · web panel · config file |
+| 🎛️ **3 ways to configure** | Desktop app · web panel · config file |
 | 🔒 **Stream security** | Optional ONVIF / RTSP authentication (Digest / WS-Security) |
-| 🌍 **Bilingual UI** | English / العربية |
+| 🌍 **Bilingual app** | English / العربية |
 
 <br>
 
 <a id="how"></a>
 ## 🔌 How it works
 
-```
-PC screen  →  H.264 encode  →  ONVIF / RTSP  →  your NVR / VMS
-```
-
-<div align="center">
-
-<img src="images/how-it-works.png" alt="Screen2ipcam overview: any Windows screen becomes a standard ONVIF / RTSP camera that works with Hikvision, Dahua, Blue Iris and any NVR, with no capture card, no encoder and no extra PC" width="100%">
-
-</div>
-
-**Ports (standard edition)**
+1. **Install**: [download](#download) the installer (64-bit or 32-bit) and run it.
+2. **Choose the source** in the app: the whole display, part of the screen, or one application. Default login `admin` / `admin`.
+3. **On your NVR:** Add Camera → **ONVIF** (auto-discover, or enter the PC's IP and port `8000`; `18000` for the Windows Server edition). Done, it records like any camera.
 
 | Port | Protocol | Purpose |
 |:---:|:---:|---|
@@ -236,53 +250,26 @@ PC screen  →  H.264 encode  →  ONVIF / RTSP  →  your NVR / VMS
 | `3702` | UDP | WS-Discovery *(optional, you can add by IP instead)* |
 
 For a segmented camera VLAN, the NVR only needs to reach the PC on **554** and **8000**.
-The **Windows Server edition** uses fixed ports: RTSP `554`, ONVIF `18000`, web panel `13030`.
-
-### 🚀 Quick start, 3 steps
-
-1. **Install**: [download](#download) the installer (x64 or x86) and run it.
-2. **Open the control panel**: default login `admin` / `admin`.
-3. **On your NVR:** Add Camera → **ONVIF** (auto-discover, or enter the PC's IP + port `8000`; `18000` for the Windows Server edition). Done, it records like any camera.
 
 <br>
 
 <a id="shots"></a>
-## 🖼️ See it in action
+## 🖼️ Screenshots
 
 <div align="center">
 
 <img src="images/nvr-live-dahua.png" width="82%" alt="A Dahua NVR showing the PC screen live as a camera channel">
 <br><sub>A real Dahua NVR playing the PC screen as an ordinary camera channel</sub>
 
-<img src="images/after-install.jpg" width="72%" alt="The screen shown after installing: device address, RTSP and ONVIF links, ports">
-<br><sub>Right after install: the address, links and ports, each with a Copy button</sub>
-
-<img src="images/privacy-alert.jpg" width="82%" alt="The optional on-screen alert shown on the streaming PC while somebody is watching">
-<br><sub>Illustration: the optional privacy alert, shown only on the streaming PC</sub>
-
-<img src="images/nvr-with-audio.jpg" width="82%" alt="An NVR recording a Windows PC screen as a camera, with audio">
-<br><sub>Illustration: how it appears on a recorder, with sound</sub>
-
 <br><br>
 
-<img src="images/devices.png" alt="View your Screen2ipcam stream on any device: PC, Android, iPhone / iPad, Smart TV, NVR / DVR, web browser (RTSP 554 · ONVIF 8000 · Web 8080)" width="72%">
+<img src="images/after-install.jpg" width="72%" alt="The screen shown after installing: device address, RTSP and ONVIF links, ports">
+<br><sub>Right after install: the address, links and ports, each with a Copy button</sub>
 
 </div>
 
 <details>
-<summary><b>🖥️ Web control panel</b>, browser-based admin at <code>http://[device-ip]:8080</code> <i>(click to expand)</i></summary>
-<br>
-
-**System / License**: device ID, license status, and activation QR
-![System / License](images/panel-system.png)
-
-**Network**: ports & optional stream authentication
-![Network](images/Screenshot%202026-06-07%20170322.jpg)
-
-</details>
-
-<details>
-<summary><b>🪟 Windows control panel</b>, native desktop app + service installer <i>(click to expand)</i></summary>
+<summary><b>🪟 More screenshots: desktop app, web panel, installer</b> <i>(click to expand)</i></summary>
 <br>
 
 **Desktop control panel**: stream settings, tray icon, and service status
@@ -297,10 +284,31 @@ The **Windows Server edition** uses fixed ports: RTSP `554`, ONVIF `18000`, web 
 **Status tab**: the recorders connected right now
 ![Status tab](images/panel-status.png)
 
+**Web panel, System / License**: device ID, license status, and activation QR
+![System / License](images/panel-system.png)
+
 **Installer**: desktop shortcut, run at startup, and install as a Windows service
 ![Installer tasks](images/win-installer.png)
 
+**View the stream anywhere**: PC, Android, iPhone / iPad, Smart TV, NVR / DVR, web browser
+![Devices](images/devices.png)
+
 </details>
+
+<br>
+
+<a id="versions"></a>
+## 📜 Version history
+
+| Version | What changed |
+|:---:|---|
+| **2.0.7** 🆕 | **Choose what the camera shows:** the whole display, part of the screen, or one application window. Identify displays, live preview, steadier timelines on professional VMS, help tips. |
+| **2.0.5** | 🎯 **Motion recording** over standard ONVIF: the recorder records only when the screen changes. Mouse pointer in the stream, sound and on-screen extras, a **Send test event** button, easier license activation. New edition: **2.0.5 for Windows Server**. |
+| **2.0.3** | More stable connection with recorders: the app answers the checks some recorders (Uniview among them) send while streaming. Wider support for sub stream names, and a **Check firewall** button. |
+| **2.0.2** | **VPN tab**: choose the address the recorder sees, run a network check, copy the RTSP link. VPN and virtual adapters are skipped automatically, and the camera identity is tied to the PC hardware. |
+| **2.0.1 and earlier** | The foundation: ONVIF Profile S discovery, RTSP H.264 main and sub streams, the web panel, the Windows service and the 14-day trial. |
+
+📝 **[Full release notes for every version](https://screen2ipcam.com/updates.html?src=github)** &nbsp;·&nbsp; 🕘 [Previous version 2.0.5](#download) &nbsp;·&nbsp; 📦 [Earlier builds on SourceForge](https://sourceforge.net/projects/screen2ipcam/files/)
 
 <br>
 
@@ -314,13 +322,7 @@ The **Windows Server edition** uses fixed ports: RTSP `554`, ONVIF `18000`, web 
 | Watermark after trial | n/a | **Never** |
 | Activations | n/a | 1 PC (locked to its Device ID) |
 
-The **Windows Server edition** uses the same lifetime license, one per machine. For 5 machines or more, all licenses can be delivered together.
-
-<div align="center">
-
-**[License details at screen2ipcam.com →](https://screen2ipcam.com/?src=github)**
-
-</div>
+The **Windows Server edition** uses the same lifetime license, one per machine. For 5 machines or more, all licenses can be delivered together. **[License details at screen2ipcam.com →](https://screen2ipcam.com/?src=github)**
 
 <br>
 
@@ -334,11 +336,7 @@ The **Windows Server edition** uses the same lifetime license, one per machine. 
 
 </div>
 
-> **"Screen2ipcam essentially turns your computer into an IP camera."** Your computer is then recognized as such by your NVR, enabling you to monitor your security footage and computer screen from the same place, with the program facilitating this workflow through a straightforward setup process.
->
-> **Stream your screen like an IP camera**: "Although turning your computer screen into an IP camera sounds like a complicated thing to do, that's not the case here. The software makes the whole process easy to go through, so you should be able to stream your screen within minutes of setting up the app. The connection to your surveillance device is handled via ONVIF … you can always input the RTSP address into VLC or a compatible player to check if the stream is active."
->
-> **Comes with several options for customization**: "The program uses H.264 as the main codec, with options for tweaking resolution, frame rate, and bit rate … you can also opt for different RTSP and ONVIF ports from the app or web portal."
+> **"Screen2ipcam essentially turns your computer into an IP camera."**
 >
 > Robert Condorache · [Full review on Softpedia](https://www.softpedia.com/get/Internet/Streaming/Screen2ipcam.shtml) · rated **5.0 / 5** · **Certified 100% Clean**
 
@@ -355,94 +353,74 @@ The **Windows Server edition** uses the same lifetime license, one per machine. 
 
 </details>
 
-### 📚 Also listed on
-
-[Softpedia](https://www.softpedia.com/get/Internet/Streaming/Screen2ipcam.shtml) · [Soft112](https://screen2ipcam.soft112.com/) · [Software Informer](https://screen2ipcam.software.informer.com/)
+📚 Also listed on [Softpedia](https://www.softpedia.com/get/Internet/Streaming/Screen2ipcam.shtml) · [SourceForge](https://sourceforge.net/projects/screen2ipcam/) · [Soft112](https://screen2ipcam.soft112.com/) · [Software Informer](https://screen2ipcam.software.informer.com/)
 
 <br>
 
+<a id="faq"></a>
 ## ❓ FAQ
 
 <details>
-<summary><b>Which NVRs and software does it work with?</b></summary>
+<summary><b>What is a virtual IP camera?</b></summary>
 <br>
 
-Any system that supports **ONVIF** or **RTSP**. Tested with **Hikvision**, **Dahua**, **Uniview**, **XMEye**, **Blue Iris** and **Agent DVR**; standard ONVIF/RTSP means enterprise VMS platforms (Milestone, Genetec, Nx Witness and others) ingest it too.
+A program that makes something that is not a camera, here a Windows screen, look like a standard IP camera on the network. Screen2ipcam answers ONVIF discovery and serves an RTSP H.264 stream, so your NVR, DVR or VMS adds it and records it like any camera.
 </details>
 
 <details>
-<summary><b>How long is the trial?</b></summary>
+<summary><b>Can I stream only one program, or only part of the screen?</b></summary>
 <br>
 
-**14 days, fully functional.** A license unlocks the full version, no watermark and no time limit.
+Yes, since **2.0.7**. In the Source tab choose **Part of the screen** and draw the area, or choose **Specific application** and pick the program. The camera follows that window wherever it moves, and shows a waiting screen if the program is closed until it opens again.
+</details>
+
+<details>
+<summary><b>The PC has more than one monitor. Which one is streamed?</b></summary>
+<br>
+
+The one you pick. Since **2.0.7** the Source tab lists every display, and **Identify displays** shows a big number on each screen so you know which is which.
 </details>
 
 <details>
 <summary><b>Can the recorder record only when the screen changes?</b></summary>
 <br>
 
-Yes, since **2.0.5**. Switch on **Send motion events to the recorder** in the Events tab, then enable motion recording for that channel on the recorder. It works over standard ONVIF, so Hikvision, Dahua, XMEye and the others treat it like motion from a real camera. The feature is off by default, and the **Send test event** button lets you confirm the recorder reacts without touching the screen. Details: [magicweb.win/motion](https://screen2ipcam.com/motion/?src=github).
+Yes, since **2.0.5**. Switch on **Send motion events to the recorder** in the Events tab, then enable motion recording for that channel on the recorder. It works over standard ONVIF, so Hikvision, Dahua, XMEye and the others treat it like motion from a real camera. Details: [screen2ipcam.com/motion](https://screen2ipcam.com/motion/?src=github).
+</details>
+
+<details>
+<summary><b>Which NVRs and software does it work with?</b></summary>
+<br>
+
+Any system that supports **ONVIF** or **RTSP**. Tested with Hikvision, Dahua, Uniview, XMEye, Blue Iris and Agent DVR, listed in the official Nx Integration Directory, and verified on Pelco VideoXpert. See [Works with](#works-with).
 </details>
 
 <details>
 <summary><b>Does it record sound?</b></summary>
+<br>
 
-Yes. It sends what the PC plays (not a microphone) inside the same
-stream using **G.711**. It is off by default, and even when enabled it only runs while
-a viewer is connected.
-
-</details>
-
-<details>
-<summary><b>The recorder shows no sound. What do I set?</b></summary>
-
-On the recorder's channel settings choose audio compression **G.711Mu** (also written
-G.711 µ-law) and audio source **Local**. G.711A, PCM and AAC will not play.
-And if the channel was added to the recorder **before** you switched audio on, remove
-the channel and add it again: the recorder reads the camera's capabilities once, when
-the channel is created. That is the most common cause of silent audio.
-
+Yes. It sends what the PC plays (not a microphone) inside the same stream using **G.711**. On the recorder choose audio compression **G.711Mu** and audio source **Local**. If the channel was added before you switched audio on, remove it and add it again once.
 </details>
 
 <details>
 <summary><b>Does it keep streaming when nobody is logged in?</b></summary>
 <br>
 
-Use **[2.0.5 for Windows Server](#windows-server)**. Its service runs the camera on the logon screen itself, so after a reboot or a log off the recorder still sees the screen. It also keeps fixed ports (RTSP 554, ONVIF 18000, web panel 13030) and follows the active session when somebody connects over Remote Desktop.
-</details>
-
-<details>
-<summary><b>Can I install it on many machines without clicking through the installer?</b></summary>
-<br>
-
-Yes, with the Windows Server edition. Set one PC up, save the settings to a file from the License tab, name it `Screen2ipcam-settings.txt` and keep it next to the installer. Then run `Screen2ipcam_Setup_2.0.5_WindowsServer_x64.exe /SILENT /SUPPRESSMSGBOXES` from your deployment tool. Each machine is licensed from the panel as usual.
-</details>
-
-<details>
-<summary><b>My recorder keeps disconnecting every few seconds. Why?</b></summary>
-<br>
-
-Update to **2.0.5** or later. Some recorders (Uniview among them) send a periodic
-check to the camera while the stream is running; older builds did not answer it, so
-the recorder assumed the camera was gone and reconnected. After updating, delete the
-channel in the recorder and add it again once.
+Use **[2.0.5 for Windows Server](#windows-server)**. Its service runs the camera on the logon screen itself, keeps fixed ports, and follows the active session over Remote Desktop.
 </details>
 
 <details>
 <summary><b>The recorder sees the wrong IP address (VPN / virtual adapter)</b></summary>
 <br>
 
-Open the **VPN** tab in the control panel and pick exactly which address the camera
-should announce. VPN and virtual adapters (Tailscale, Hyper-V, VMware, VirtualBox and
-others) are detected and skipped automatically, and the built-in **network check**
-confirms the recorder can actually reach that address before you add the channel.
+Open the **VPN** tab and pick exactly which address the camera should announce. VPN and virtual adapters (Tailscale, Hyper-V, VMware, VirtualBox and others) are skipped automatically, and the built-in **network check** confirms the recorder can reach that address.
 </details>
 
 <details>
 <summary><b>Which Windows versions are supported?</b></summary>
 <br>
 
-**Windows 7 SP1 through Windows 11**, both 32-bit and 64-bit, including Windows IoT / Embedded / POSReady. The Windows Server edition runs on **Windows Server 2016 to 2025** as well. No .NET or extra runtimes needed.
+**Windows 7 SP1 through Windows 11**, 32-bit and 64-bit, including Windows IoT / Embedded / POSReady. The Windows Server edition also runs on **Windows Server 2016 to 2025**. No .NET or extra runtimes needed.
 </details>
 
 <details>
@@ -456,30 +434,28 @@ SmartScreen sometimes shows a notice for a program it has not seen often. Click 
 <summary><b>How do I get and activate my license?</b></summary>
 <br>
 
-Send your **Device ID** (from the app's License tab) through the [form on the site](https://screen2ipcam.com/?src=github#contact) or by email. We generate and send your license, usually within hours. Paste it into the License tab in any form, even on a single line. Each license activates **one PC**, locked to its Device ID.
+Send your **Device ID** (from the app's License tab) through the [form on the site](https://screen2ipcam.com/?src=github#contact) or by email. We send your license by email. Paste it into the License tab in any form, even on a single line. Each license activates **one PC**, locked to its Device ID.
 </details>
 
 <details>
 <summary><b>How do I uninstall it?</b></summary>
 <br>
 
-**Settings → Apps**, or the **Uninstall Screen2ipcam** shortcut. It asks for the program password (default `admin` / `admin`), so a casual user can't remove it from a deployed PC. Forgot the password? Click **Forgot password?** on the web-panel login and email the Device ID to **support@magicweb.win** for a reset code.
+**Settings → Apps**, or the **Uninstall Screen2ipcam** shortcut. It asks for the program password (default `admin` / `admin`), so a casual user can't remove it from a deployed PC. Forgot the password? Click **Forgot password?** on the web panel login and email the Device ID to **support@magicweb.win** for a reset code.
 </details>
 
 <br>
 
 <a id="comments"></a>
-## 💬 Comments & feedback
-
-Your feedback shapes the roadmap. Questions, ideas, setup stories, NVR compatibility reports, everything is welcome:
+## 💬 Questions & feedback
 
 | | Where | For |
 |---|---|---|
-| 💬 | **[Discussions →](https://github.com/elpasha3000/Screen2ipcam/discussions)** | Comments, questions, ideas, show & tell |
-| 🐞 | **[Issues →](https://github.com/elpasha3000/Screen2ipcam/issues)** | Bug reports, something didn't work |
+| 💬 | **[Discussions →](https://github.com/elpasha3000/Screen2ipcam/discussions)** | Questions, ideas, setup stories |
+| 🐞 | **[Issues →](https://github.com/elpasha3000/Screen2ipcam/issues)** | Something didn't work |
 | 📧 | **[support@magicweb.win](mailto:support@magicweb.win)** | Direct support & licensing |
 
-Especially useful to us: your **NVR / VMS model**, **ONVIF discovery result**, and **streaming performance / CPU usage**.
+Especially useful to us: your **NVR / VMS model** and the **ONVIF discovery result**.
 
 <br>
 
@@ -489,9 +465,9 @@ Especially useful to us: your **NVR / VMS model**, **ONVIF discovery result**, a
 
 <img src="images/logo.png" width="56" alt="Screen2ipcam">
 
-**Screen2ipcam**: Your Windows screen. Your IP camera.
+**Screen2ipcam 2.0.7**: Your Windows screen. Your IP camera.
 
-🌐 **[screen2ipcam.com](https://screen2ipcam.com/?src=github)** &nbsp;·&nbsp; 📧 **[support@magicweb.win](mailto:support@magicweb.win)** &nbsp;·&nbsp; 🖧 **[Windows Server edition](https://screen2ipcam.com/windows-server/?src=github)** &nbsp;·&nbsp; 📝 **[Release notes](https://screen2ipcam.com/updates.html?src=github)**
+🌐 **[screen2ipcam.com](https://screen2ipcam.com/?src=github)** &nbsp;·&nbsp; 📄 **[Product page](https://elpasha3000.github.io/Screen2ipcam/)** &nbsp;·&nbsp; 📧 **[support@magicweb.win](mailto:support@magicweb.win)** &nbsp;·&nbsp; 📝 **[Release notes](https://screen2ipcam.com/updates.html?src=github)**
 
 ⭐ *If Screen2ipcam is useful to you, a star helps others find it.*
 
