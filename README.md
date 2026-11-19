@@ -24,7 +24,7 @@ recorded by any **NVR, DVR or VMS**, with **no capture card** and **no hardware 
 
 <br>
 
-[**⬇️ Download**](#download) &nbsp;·&nbsp; [**🆕 What's new**](#whats-new) &nbsp;·&nbsp; [**🖧 Windows Server edition**](#windows-server) &nbsp;·&nbsp; [**✨ Features**](#features) &nbsp;·&nbsp; [**🔌 How it works**](#how) &nbsp;·&nbsp; [**🖼️ Screenshots**](#shots) &nbsp;·&nbsp; [**💲 Pricing**](#pricing) &nbsp;·&nbsp; [**⭐ Review**](#review) &nbsp;·&nbsp; [**💬 Comments**](#comments)
+[**⬇️ Download**](#download) &nbsp;·&nbsp; [**🆕 What's new**](#whats-new) &nbsp;·&nbsp; [**🖧 Windows Server edition**](#windows-server) &nbsp;·&nbsp; [**✨ Features**](#features) &nbsp;·&nbsp; [**🔌 How it works**](#how) &nbsp;·&nbsp; [**🖼️ Screenshots**](#shots) &nbsp;·&nbsp; [**🔑 License**](#license) &nbsp;·&nbsp; [**⭐ Review**](#review) &nbsp;·&nbsp; [**💬 Comments**](#comments)
 
 <br>
 
@@ -152,7 +152,7 @@ Each machine comes up ready: resolution, ports, sound, mouse pointer.
 **🖥️ Remote Desktop aware**<br>
 When a technician connects over RDP, the camera follows the active session, and goes back to the operator's screen by itself when they disconnect.
 
-Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. It installs over your current version and keeps your license and settings. Same lifetime license as the standard edition, **$20 per machine**.
+Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. It installs over your current version and keeps your license and settings. Same lifetime license as the standard edition, one per machine.
 
 | | Download | |
 |---|---|---|
@@ -182,7 +182,7 @@ Runs on **Windows Server 2016 to 2025** and on Windows 7 to 11 PCs. It installs 
 | 🎬 | [Videos](https://screen2ipcam.com/media/?src=github) | Setup and feature walkthroughs |
 | 📝 | [Release notes](https://screen2ipcam.com/updates.html?src=github) | What changed in each version |
 
-Windows 7 SP1 to Windows 11, 32-bit and 64-bit. The trial is **14 days, fully functional**. A one-time **$20** license unlocks the full version for one PC: **no watermark, no time limit**.
+Windows 7 SP1 to Windows 11, 32-bit and 64-bit. The trial is **14 days, fully functional**. A lifetime license unlocks the full version for one PC: **no watermark, no time limit**.
 
 <br>
 
@@ -304,22 +304,21 @@ The **Windows Server edition** uses fixed ports: RTSP `554`, ONVIF `18000`, web 
 
 <br>
 
-<a id="pricing"></a>
-## 💲 Pricing
+<a id="license"></a>
+## 🔑 License
 
 | | Free trial | Lifetime license |
 |---|:---:|:---:|
-| **Price** | **$0** | **$20**, one-time |
 | Every feature unlocked | ✅ | ✅ |
 | Duration | 14 days | **Forever** |
 | Watermark after trial | n/a | **Never** |
 | Activations | n/a | 1 PC (locked to its Device ID) |
 
-The **Windows Server edition** uses the same lifetime license, **$20 per machine**. For 5 machines or more, ask for a quote on the site and all licenses are delivered together.
+The **Windows Server edition** uses the same lifetime license, one per machine. For 5 machines or more, all licenses can be delivered together.
 
 <div align="center">
 
-**[Get your license at screen2ipcam.com →](https://screen2ipcam.com/?src=github#pricing)**
+**[License details at screen2ipcam.com →](https://screen2ipcam.com/?src=github)**
 
 </div>
 
@@ -454,7 +453,7 @@ SmartScreen sometimes shows a notice for a program it has not seen often. Click 
 </details>
 
 <details>
-<summary><b>How do I get my license after paying?</b></summary>
+<summary><b>How do I get and activate my license?</b></summary>
 <br>
 
 Send your **Device ID** (from the app's License tab) through the [form on the site](https://screen2ipcam.com/?src=github#contact) or by email. We generate and send your license, usually within hours. Paste it into the License tab in any form, even on a single line. Each license activates **one PC**, locked to its Device ID.
